@@ -1,0 +1,43 @@
+#ScreenshotsModule .Content .Gallery a img,
+.PostsListModule .Posts>li article .Screenshots li img
+{
+	box-shadow: 0 0 10px var(--BlackColor);
+	border-radius: 5px;
+}
+
+#ScreenshotsModule .Content .Gallery a,
+.PostsListModule .Posts>li article .Screenshots li img,
+#PortfolioEntriesListModule recordCell.Preview bgImg,
+#ParticipantsListModule .Entries ul li img
+{
+	transition: var(--TransitionAll);
+}
+
+#ScreenshotsModule .Content .Gallery a:first-child:hover
+{
+	margin-right: 3rem;
+}
+
+#ScreenshotsModule .Content .Gallery a:hover,
+.PostsListModule .Posts>li article .Screenshots li img:hover,
+#ParticipantsListModule .Entries ul li img:hover
+{
+	transform: var(--Scale);
+}
+
+#EmbeddablesModule img,
+#PortfolioEntriesListModule recordCell.Preview bgImg,
+#SearchResultsModule record recordCell.Preview img
+{
+	border-radius: 5px;
+}
+
+.PostsListModule .Posts>li article .Screenshots li
+{
+	margin: 1rem;
+}
+
+#ParticipantsListModule .Entries ul li img
+{
+	border-radius: 3px;
+}

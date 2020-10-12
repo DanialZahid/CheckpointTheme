@@ -1,0 +1,74 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.PageModule > h3
+{
+	color: var(--HeadingColor);
+	font-family: var(--HeadingFont);
+	letter-spacing: 1px;
+	text-shadow: var(--TextShadow);
+	font-weight: 100;
+}
+
+h1
+{
+	font-size: 3rem;
+}
+
+h2
+{
+	font-size: 2.5rem;
+}
+
+h3,
+#ItemProfileModule .Content article h3,
+.PageModule > h3
+{
+	font-size: 2rem;
+}
+
+.PageModule > h3
+{
+	text-transform: uppercase;
+}
+
+.PageModule > h3::after
+{
+	display: none;
+}
+
+h4, h5, h6
+{
+	font-size: 1.7rem;
+}
+
+#PrimaryNav h4,
+#SecondaryNav h4
+{
+	font-family: var(--HeadingFont);
+	font-size: 3rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#AuthorsAndRolesModule .Content dt.AuthorsGroup // Authors module headings
+{
+	font-size: var(--FontSizeMedium);
+	font-family: var(--HeadingFont);
+	letter-spacing: 1px;
+}
+
+// Page Title, Page Description
+
+#HeadlineWrapper overlay h1
+{
+	font-size: 4rem;
+}
+
+#HeadlineWrapper overlay h2
+{
+	font-size: 3rem;
+}

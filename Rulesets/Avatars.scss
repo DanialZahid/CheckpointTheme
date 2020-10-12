@@ -1,0 +1,70 @@
+// 50% Border Radius For All Avatars
+
+.Avatar,
+.Avatar img,
+#FeaturesSliderModule img, // Features module avatar
+#CheckpointCreatorPromoModule .Content img,
+.Avatar.IsRipeSupporter,
+.Avatar.HasClearanceLevel,
+.Trasher img,
+.Ownership img,
+#SearchResultsModule record recordCell.Submitter img,
+#SubmissionsListModule .Managers li img
+{
+	border-radius: 50%;
+	transition: var(--TransitionScale);
+}
+
+#SearchResultsModule record recordCell.Submitter img
+{
+	width: auto;
+}
+
+.Avatar.IsRipeSupporter
+{
+	padding: 0.5rem;
+}
+
+.Avatar.HasClearanceLevel
+{
+	border: 2px solid var(--RedColor);
+	box-shadow: none;
+}
+
+.Avatar:hover,
+.Trasher img:hover,
+#CheckpointCreatorPromoModule .Content img:hover,
+.Ownership img:hover,
+#SearchResultsModule record recordCell.Submitter img:hover,
+#SubmissionsListModule .Managers li img:hover
+{
+	transform: var(--Scale);
+}
+
+.Avatar.Online:after,
+.MemberLink.Online:after
+{
+	border: 2px solid var(--BlackColor);
+	background: var(--GreenColor);
+	width: 12px;
+	height: 12px;
+	box-shadow: none;
+	border-radius: 50%;
+}
+
+// Nested Replies Avatar
+
+.PostsListModule .Posts>li .PostReplies .AvatarWrapper .Avatar,
+#PendingSubmissionsListModule recordCell.Moderator .Avatar // Pending submissions avatar
+{
+	width: 2rem;
+	height: 2rem;
+}
+
+// Games Section Managers Avatars
+
+#SubmissionsListModule .Managers li img
+{
+	width: 3rem;
+	height: 3rem;
+}

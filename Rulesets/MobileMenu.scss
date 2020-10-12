@@ -1,0 +1,41 @@
+#HiddenColumnToggleButton matIcon
+{
+	background: var(--BlackColor);
+	transition: var(--TransitionAll);
+}
+
+#HiddenColumnToggleButton.Active matIcon
+{
+	color: var(--BlueColor);
+	border-left-color: var(--BlueColor);
+}
+
+#HiddenColumnToggleButton.Selected matIcon
+{
+	color: var(--RedColor);
+	border-left-color: var(--RedColor);
+}
+
+#ContentGrid.HiddenColumnMode.md row > column.md-h,
+#ContentGrid.HiddenColumnMode.xs row > column.xs-h
+{
+	background: rgba(169, 169, 169, 0.8);
+	color: var(--BlackColor);
+	text-shadow: var(--TextShadow);
+
+	dd, dt, dl, p
+	{
+		color: var(--BlackColor);
+		text-shadow: none;
+	}
+
+	#AdditionalInfoModule itemCount
+	{
+		text-shadow: var(--TextShadow);
+	}
+
+	#GamesListModule record itemcount
+	{
+		color: var(--GreenColor);
+	}
+}

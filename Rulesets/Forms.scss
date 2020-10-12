@@ -1,0 +1,265 @@
+// Input Fields
+
+input[type=text],
+input[type=password],
+input[type=password],
+input[type=number],
+input[type=email],
+input[type=num],
+input[type=tel],
+select,
+.SelectLike,
+option,
+.OptionLike,
+optgroup,
+textarea,
+.TextareaLike,
+.Editor .ViewModes .Wysiwyg .RichText
+{
+	border: 1px solid var(--BlackColor);
+	border-radius: 5px;
+	font-size: var(--BodyFontSize);
+	font-family: var(--MonoFont);
+	padding: 1rem;
+	color: var(--BlackColor);
+	background: var(--FieldBGColor);
+	box-shadow: inset 1px 1px 3px rgba(21, 21, 21, 0.7);
+}
+
+input[type=text]:hover,
+input[type=password]:hover,
+input[type=password]:hover,
+input[type=number]:hover,
+input[type=email]:hover,
+input[type=num]:hover,
+input[type=tel]:hover,
+select:hover,
+.SelectLike:hover,
+option:hover,
+.OptionLike:hover,
+optgroup:hover,
+textarea:hover,
+.TextareaLike:hover,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+input[type=email]:focus,
+input[type=num]:focus,
+input[type=tel]:focus,
+select:focus,
+.SelectLike:focus,
+option:focus,
+.OptionLike:focus,
+optgroup:focus,
+textarea:focus,
+.TextareaLike:focus
+{
+	background: var(--FieldBGColor);
+}
+
+fieldset
+{
+	background: var(--GreyColor);
+	border-radius: 5px;
+	padding: 1rem;
+	color: var(--BlackColor);
+
+	h1, h2, h3, h4, h5, h6, legend, .Title
+	{
+		color: var(--BlackColor);
+		font-weight: 100;
+		text-shadow: none;
+	}
+}
+
+select:disabled,
+.SelectLike:disabled
+{
+	cursor: not-allowed;
+}
+
+#SectionAddFormSelectorModule .Content #SelectGameStep .GamesList .LetterGroup
+{
+	color: var(--BlueColor);
+	text-shadow: var(--TextShdow);
+}
+
+// Forms
+
+.MainForm
+{
+	max-width: 100% !important;
+}
+
+.MainForm .InputsWrapper fieldset>legend
+{
+	top: 20px;
+}
+
+.MainForm .InputsWrapper fieldset .InputHelp
+{
+	padding: 0.5rem;
+	margin: 0.5rem 0;
+	font-size: var(--BodyFontSize);
+	color: var(--BlackColor);
+}
+
+.MainForm fieldset#Category .Category small
+{
+	color: var(--BlackColor);
+	font-size: 1.3rem;
+}
+
+.MainForm .Submit // Remove background color from Submit button wrapper
+{
+	background: 0;
+}
+
+.MainForm .InputsWrapper fieldset>legend:after // Remove heading underline
+{
+	display: none;
+}
+
+.MainForm .InputsWrapper fieldset>legend .Title
+{
+	font-family: var(--HeadingFont);
+	font-size: 2rem;
+}
+
+.MainForm fieldset .UploadedFiles li>input,
+.MainForm fieldset .UploadedFiles li>span
+{
+	font-family: var(--MonoFont);
+	color: var(--BlackColor);
+}
+
+.MainForm fieldset#Requirements ul .ui-sortable-helper,
+.MainForm fieldset .UploadedFiles .ui-sortable-helper
+{
+	opacity: 1;
+	border: 2px dashed var(--PurpleColor);
+	border-radius: 5px;
+}
+
+.MainForm fieldset#Requirements ul .ui-sortable-placeholder,
+.MainForm fieldset .UploadedFiles .ui-sortable-placeholder
+{
+	border: 2px dashed var(--GreenColor);
+	border-radius: 5px;
+}
+
+.MainForm fieldset#SubmissionAuthors #AuthorGroupsList li .AuthorsList li span,
+.MainForm fieldset#SubmissionAuthors #AuthorGroupsList li .BulkAddAuthorInput small,
+#Recipients small,
+#Recipients textarea
+{
+	font-size: var(--BodyFontSize);
+	color: var(--BlackColor);
+}
+
+.AdvancedListSettingsModule>.Content .OrderAndSortControls fieldset legend
+{
+	font-size: 1.5rem;
+	padding: 0.3rem;
+	position: relative;
+	top: 15px;
+}
+
+.GeneratorProfileModule fieldset legend // Fix title position for Generators section fieldsets
+{
+	position: relative;
+	top: 15px;
+}
+
+#Category .UberSelect .OptionsWrapper .Options .Selected
+{
+	color: var(--PurpleColor) !important;
+	background: rgba(21, 21, 21, 0.8) !important;
+}
+
+// Editors
+
+.Editor .ViewModes .Wysiwyg .RichText
+{
+	font-family: var(--GlobalFont);
+	font-size: 1.5rem;
+}
+
+.Editor .ViewModes .Wysiwyg .RichText:hover,
+.Editor .ViewModes .Wysiwyg .RichText:focus
+{
+	background: var(--FieldBGColor) !important;
+}
+
+.Editor .ViewModes .Source textarea
+{
+	color: var(--GreenColor);
+	font-family: var(--MonoFont);
+	background: rgba(21, 21, 21, 0.7);
+	width: 100%;
+}
+
+.Editor .ViewModes .Backup .RichText
+{
+	box-shadow: inset 2px 2px 2px var(--BlackColor);
+	background: rgba(21, 21, 21, 0.9);
+	color: var(--GreyColor);
+	border: 1px solid var(--BlackColor);
+	border-radius: 5px;
+	font-family: var(--MonoFont);
+	padding: 1rem;
+	width: 100%;
+}
+
+.Editor .ViewModeSwitchers span,
+.Editor .WysiwygPalettes>tab
+{
+	font-family: var(--MonoFont);
+	font-size: var(--RootFontSize);
+	background: rgba(21, 21, 21, 0.7);
+	border-radius: 3px 3px 0 0;
+}
+
+.Editor .WysiwygPalettes
+{
+	background: 0;
+	border-radius: 0;
+}
+
+.Editor .WysiwygPalettes>palette
+{
+	background: var(--ListBGColor);
+	border: 0;
+	border-radius: 3px;
+}
+
+.Editor .WysiwygPalettes .UsernameInserter ul li:hover,
+.Editor .WysiwygPalettes .BitpitFileInserter ul li:hover,
+.Editor.DragInProgress .ViewModes .Wysiwyg,
+.Editor .ViewModes .Wysiwyg .RichText *:hover
+{
+	outline: 1px dashed var(--PurpleColor);
+}
+
+.Editor.DragInProgress .ViewModes .Wysiwyg:after
+{
+	font-size: var(--BodyFontSize);
+	background: var(--PurpleColor);
+	border-radius: 3px;
+	color: var(--BlackColor);
+}
+
+#ProfileWysiwygEditor .InputWrapper #TemplateGrid row column .ui-sortable-helper,
+fieldset.CustomizableDefinitionList .InputWrapper .DefinitionListEntries ul .ui-sortable-helper,
+#NavOptionsNavModule pane #NavOptionsUiThemeList .ui-sortable-helper
+{
+	border-color: var(--PurpleColor);
+}
+
+#ProfileWysiwygEditor .InputWrapper #TemplateGrid row column .ui-sortable-placeholder,
+fieldset.CustomizableDefinitionList .InputWrapper .DefinitionListEntries ul .ui-sortable-placeholder,
+#NavOptionsNavModule pane #NavOptionsUiThemeList .ui-sortable-placeholder
+{
+	border-color: var(--GreenColor);
+}

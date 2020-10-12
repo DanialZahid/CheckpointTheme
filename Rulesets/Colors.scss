@@ -1,0 +1,275 @@
+// Green Color
+
+.GreenColor,
+#OverviewModule .Content .StatBlock dl dd .ChangeResult_positive,
+.meter4,
+stateLabel.IdeaResolution_addressed,
+stateLabel.QuestionState_Solved,
+stateLabel[data-_sThreadState="Done"],
+stateLabel.ContestState_Running,
+stateLabel[data-_sTutorialDifficulty="Beginner"],
+.AvatarTooltip .Column .OnlineStatus stateLabel.Online,
+.MainForm .InputsWrapper fieldset>legend stateLabel.RecommendedInput,
+stateLabel[data-_sUpdateType="Adjustment"],
+stateLabel[data-_sUpdateType="Amendment"],
+#PrimaryNav #SubmissionsNavModule pane column itemCount,
+#SecondaryNav #SubmissionsNavModule pane column itemCount,
+.PostsListModule .Posts>li .PostHeader .PostLabels stateLabel.IsExemplary,
+.Editor .ViewModeSwitchers span.Source,
+#ModlogListModule .Action.Severity_positive span,
+#SectionMatchesModule ul li a itemCount,
+#GameMatchesModule ul li a itemCount,
+#PointsModule .ClimbedRank,
+#SectionExplanationsModule #SectionAreas>li .Sections li itemCount.RecentlyAddedItems,
+.QuestionPreview blockquote.Solved,
+.MainForm .InputsWrapper .CategoryTabs li small .RecommendedInputsCount,
+#Member_Submissions_Todo #SubmissionsListModule .Identifiers.Status_Complete>span,
+#TodosModule .Identifiers.Status_Complete>span,
+#BexPromoModule .Content>a .PointCostOverlay,
+#GamesListModule .Content>ul>li .Preview .PointCost,
+#AvailableKeysListModule h3,
+#AvailableKeysListListToolbarModule button span,
+#KeyInfoModule .BannerWrapper .PointCost,
+#SubNavigator li itemCount,
+stateLabel.RequestResolution_delivered,
+#PurchasesListModule li .GameBanner .PointsCost,
+#NewBexGamesModule li a overlay.PointsCost,
+#BuddiesListModule recordCell.Status stateLabel.Online,
+stateLabel.PermitLevel_junior,
+#PendingSubmissionsListModule recordCell.Status stateLabel.Status_0
+{
+	color: var(--GreenColor);
+}
+
+// Red Color
+
+.RedColor,
+p.NoRecordsFound, // No records found
+.LessThan5minsOld,
+.LessThan30minsOld,
+#OverviewModule .Content .StatBlock dl dd .ChangeResult_negative,
+#PointsModule .DroppedRank,
+#LicenseModule article footer, // License module statement color
+.InputWrapper.RedColor,
+.meter1,
+#PrivateAccessNoticeModule,
+#PrivateAccessNoticeModule h3,
+stateLabel.BugResolution_confirmed,
+stateLabel.BugPriority_high,
+stateLabel.BugPriority_emergency,
+stateLabel.SupportResolution_open,
+stateLabel.SupportResolution_closed,
+stateLabel.IdeaResolution_cannot_address,
+stateLabel.IdeaResolution_wont_address,
+stateLabel.IdeaResolution_duplicate,
+stateLabel.QuestionState_Unanswered,
+stateLabel[data-_sTutorialDifficulty="Advanced"],
+stateLabel[data-_sUpdateType="Overhaul"],
+stateLabel[data-_sUpdateType="BugFix"],
+#PageFooter #ImportantLinks li #AddBugLink span,
+#LicenseModule div.Content a,
+.Editor .WysiwygPalettes .ImageInserter ul:empty:after,
+#ModeratorNoticeModule article,
+#HistoryListModule .Content .Changes li .NewVersion .ValueWrapper del,
+#HistoryListModule .Content .Changes li .PreviousVersion .ValueWrapper del,
+#Member_Submissions_Flag #SubmissionsListModule .Preview.FlagState_0 ul,
+#FlagsModule .Preview.FlagState_0 ul,
+stateLabel.FlagState_3,
+#ModlogListModule .Action.Severity_negative span,
+#WithholdNoticeModule,
+#WithholdNoticeModule h3,
+#PointsModule .DroppedRank,
+#SubmissionsListAdvancedListSettingsModule .SelectedGames li:hover matIcon,
+.QuestionPreview blockquote.Unanswered,
+#UnwithholdInstructionsModule,
+#UnwithholdInstructionsModule h3,
+.LessThan1HourOld,
+.MainForm .InputsWrapper .InputHasError .InputError,
+.MainForm .InputsWrapper fieldset>legend stateLabel.ErroneousInput,
+.MainForm .InputsWrapper .CategoryTabs li small .ErroneousInputsCount,
+stateLabel.TodoPriority_3,
+#SubShopperModule #CcPaymentForm #CardErrorMessage,
+.ElementsApp .InputElement.is-invalid,
+#BexPromoModule .Content>a .MoneyCostOverlay,
+#NewBexGamesModule li a overlay.Availability,
+#GamesListModule .Content>ul>li .Preview .SoldOutLabel,
+#FlagNoticeModule,
+#FlagNoticeModule h3,
+stateLabel.RequestResolution_undeliverable,
+stateLabel.RequestResolution_cancelled,
+stateLabel.RequestResolution_duplicate,
+stateLabel.IsTrashed,
+stateLabel.PermitLevel_senior,
+#PendingSubmissionsListModule recordCell.Status stateLabel.Status_3
+{
+	color: var(--RedColor);
+}
+
+// Blue Color
+
+.BlueColor,
+.meter5,
+stateLabel.BugResolution_new,
+stateLabel.IdeaResolution_will_address,
+stateLabel.QuestionState_Answered,
+stateLabel[data-_sThreadState="Unanswered"],
+stateLabel[data-_sTutorialDifficulty="Intermediate"],
+.MainForm .InputsWrapper fieldset>legend stateLabel.RequiredInput, // Form - "Required" state label
+stateLabel[data-_sUpdateType="Addition"],
+stateLabel[data-_sUpdateType="Suggestion"],
+stateLabel[data-_sUpdateType="Feature"],
+stateLabel.IsCreator, // Submission Owner/Creator
+.PostsListModule .Posts>li .PostHeader .PostLabels stateLabel.IsSubmitter, // "Profile Owner" state label
+#PageFooter #ImportantLinks li #AddTicketLink span,
+.Editor .ViewModeSwitchers span.Backup,
+#HistoryListModule .Content .Changes li .NewVersion .ValueWrapper ins,
+#HistoryListModule .Content .Changes li .PreviousVersion .ValueWrapper ins,
+stateLabel.FlagState_0,
+#SectionExplanationsModule #SectionAreas>li .Sections li itemCount.RecentlyUpdatedItems,
+#SubmissionsListAdvancedListSettingsModule .RecentGames li:hover matIcon,
+.QuestionPreview blockquote.Answered,
+.MainForm .InputsWrapper .CategoryTabs li small .RequiredInputsCount,
+stateLabel.RequestResolution_open,
+stateLabel.RequestResolution_in_delivery
+{
+	color: var(--BlueColor);
+}
+
+// Grey Color
+
+.GreyColor,
+.OlderThan1Day,
+stateLabel.BugPriority_low,
+stateLabel.BugResolution_closed,
+stateLabel.SupportResolution_closed,
+stateLabel.QuestionState_closed,
+stateLabel[data-_sThreadState="Closed"],
+stateLabel.ContestState_Ended,
+.AvatarTooltip .Column .OnlineStatus stateLabel.Offline,
+stateLabel[data-_sUpdateType="Removal"],
+stateLabel[data-_sUpdateType="Refactor"],
+#AlertsNavModule pane .Broadcasts>li .Messages li small,
+#ActivityNavModule pane .Broadcasts>li .Messages li small,
+#AlertsNavModule pane .Broadcasts>li .Messages li small a,
+#ActivityNavModule pane .Broadcasts>li .Messages li small a,
+#AuthorsAndRolesModule .Content dd.Author,
+#SectionsModule .Info itemcount,
+recordCell.Identifiers .DirectCategory a,
+#SimpleSearchFormModule small>span,
+#SearchResultsModule record recordCell.Attributes ul li small,
+#SectionExplanationsModule #SectionAreas>li .Sections li itemCount,
+#BuddiesNavModule pane article .ChannelContents>.Messages>.Message small,
+#BuddiesListModule recordCell.Status stateLabel.Offline,
+stateLabel.TodoPriority_1,
+stateLabel.RequestResolution_expired,
+#CtaNoticeModule small,
+#CategoriesListModule record .Info itemcount,
+#GamesListModule .Content>ul .SoldOut .Preview .PointCost,
+stateLabel.IdeaResolution_unknown
+{
+	color: var(--GreyColor);
+}
+
+// Purple Color
+
+.PurpleColor,
+stateLabel.BugResolution_feedback,
+stateLabel.SupportResolution_feedback,
+stateLabel[data-_sThreadState="Stuck"],
+stateLabel[data-_sUpdateType="Improvement"],
+stateLabel[data-_sUpdateType="Optimization"],
+stateLabel[data-_sUpdateType="Tweak"],
+.Editor .ViewModeSwitchers span.Wysiwyg,
+#Category .UberSelect .OptionsWrapper .Options li:hover,
+#Attributes .AvailableAttributes h5:hover,
+#PendingSubmissionsListModule recordCell.Status stateLabel.Status_4
+{
+	color: var(--PurpleColor);
+}
+
+// Orange Color
+
+.OrangeColor,
+.LessThan4HoursOld,
+.meter2,
+stateLabel.BugPriority_medium,
+stateLabel.IsRedistributor,
+stateLabel.IsFlagged,
+#PendingSubmissionsListModule recordCell.Status stateLabel.Status_5
+{
+	color: var(--OrangeColor);
+}
+
+// Yellow Color
+
+.meter3,
+#PageFooter #ImportantLinks li #AddIdeaLink span
+{
+	color: var(--YellowColor);
+}
+
+// White Color
+
+#AttributesModule a,
+#SectionMatchesModule ul li a span,
+#GameMatchesModule ul li a span
+{
+	color: var(--WhiteColor);
+}
+
+// Black Color
+
+.SubmittersFeedbackInstructions,
+#EmbeddableImagesListModule li input
+{
+	color: var(--BlackColor);
+}
+
+// Background Red Color
+
+// Medal Progress Bar Colors
+
+#MedalProgressModule .Content ul li .ErrorBar,
+.IdeaPreview gauge indicator.Negativity,
+.meter1 .simplePassMeterProgress
+{
+	background: var(--RedColor);
+}
+
+// Background Green Color
+
+#MedalProgressModule .Content ul li .CompletedBar,
+.IdeaPreview gauge indicator.Positivity,
+.meter4 .simplePassMeterProgress
+{
+	background: var(--GreenColor);
+}
+
+// Background Blue Color
+
+#MedalProgressModule .Content ul li .ProgressBar .CurrentProgress,
+.meter5 .simplePassMeterProgress
+{
+	background: var(--BlueColor);
+}
+
+// Background Grey Color
+
+#MedalProgressModule .Content ul li .ProgressBar
+{
+	background: var(--GreyColor);
+}
+
+// Background Orange Color
+
+.meter2 .simplePassMeterProgress
+{
+	background: var(--OrangeColor);
+}
+
+// Background Yellow Color
+
+.meter3 .simplePassMeterProgress
+{
+	background: var(--YellowColor);
+}

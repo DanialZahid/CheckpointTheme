@@ -1,0 +1,81 @@
+// Text Shadow For Readability
+
+#PrivateAccessNoticeModule p,
+.LogMessages,
+.simplePassMeter, // Password bar
+p.NoRecordsFound,
+.MainForm .InputHelp .RedColor,
+.MainForm .InputHelp .BlueColor,
+.MainForm h4.GreenColor,
+.DefinitionListEntries h3,
+.Editor .WysiwygPalettes .ImageInserter ul:empty:after,
+.InputHelp .GreenColor,
+.SelectedRecipientsCount.PurpleColor,
+#Category .UberSelect .OptionsWrapper .Options li:hover,
+#Attributes .AvailableAttributes h5:hover,
+.Editor .WysiwygPalettes .ElementConfig.Active .GreenColor,
+.MainForm .InputsWrapper .InputHasError .InputError,
+.InputWrapper.RedColor,
+#WhereModule .Content p,
+#AddRatingFormModule li,
+#WithholdNoticeModule
+{
+	text-shadow: var(--TextShadow);
+}
+
+// 1rem Font Size
+
+#HistoryListModule .Content .Changes li .NewVersion>button,
+#HistoryListModule .Content .Changes li .PreviousVersion>button,
+#BuddiesNavModule pane article .ChannelContents>.Messages>.Message small,
+#ModlogListModule .Category small // Admin dashboard
+{
+	font-size: var(--RootFontSize) !important;
+}
+
+// 1.3rem Font Size
+
+#HistoryListModule .Content .Changes li .NewVersion .ValueWrapper,
+#HistoryListModule .Content .Changes li .PreviousVersion .ValueWrapper,
+.Editor .ViewModes .Source textarea,
+.Editor .ViewModes .Backup .RichText,
+.MainForm fieldset .UploadedFiles li>input,
+.MainForm fieldset .UploadedFiles li>span,
+#PrimaryNav #SubmissionsNavModule pane column itemCount,
+#SecondaryNav #SubmissionsNavModule pane column itemCount,
+#MessagesNavModule pane #BuddyChatPromoColumn, // Messages pane
+#BuddiesNavModule pane article .ChannelContents>.Messages>.Message .RichText,
+#Breadcrumb, // Breadcrumb
+#ChangeLog .BulkAdder small,
+#SectionsNavModule pane header small,
+#AuthorsAndRolesModule .Content dd.Author,
+#GamesNavModule pane article .TrendingGames li span,
+#SearchResultsModule record recordCell.Identifiers small,
+#MedalsModule .Content ul li div small,
+#ModlogListModule .Action blockquote,
+#RegistrationFormModule .Description small,
+#ProsAndConsModule li,
+.ReviewSummary .Pros,
+.ReviewSummary .Cons,
+#NavOptionsNavModule pane #NavOptionsUiThemeList li
+{
+	font-size: var(--BodyFontSize) !important;
+}
+
+// 1.5rem Font Size
+
+.RichText,
+#ActivityNavModule pane,
+#AlertsNavModule pane
+{
+	font-size: 1.5rem;
+}
+
+// 2rem Font Size
+
+#FilesModule .Content ul li .DownloadOptions a,
+#ScrubberFormModule .Submit button,
+records.Classic columnHeadings columnHeading
+{
+	font-size: var(--FontSizeMedium) !important;
+}

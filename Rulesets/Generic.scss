@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro&family=Squada+One&display=swap'); // Import Google fonts
+
+html
+{
+	font-size: var(--RootFontSize);
+}
+
+body
+{
+	font-size: var(--BodyFontSize);
+	font-family: var(--GlobalFont);
+	color: var(--WhiteColor);
+	background: var(--NavsFooterColor);
+}
+
+#BodyWrapper
+{
+	background: #dedede url("https://raw.githubusercontent.com/DanialZahid/CheckpointTheme/master/Assets/GridBG.png");
+
+}
+
+#MainContent
+{
+	background: rgba(0, 0, 0, 0.75);
+	font-size: 1.5rem;
+}
+
+.Modal
+{
+	background: rgba(21, 21, 21, 0.3);
+	border: 0;
+	border-radius: 5px;
+}
+
+#Breadcrumb // Breadcrumb
+{
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0.5rem;
+	border-radius: 3px;
+}
+
+// Links
+
+a,
+.Linklike,
+.RichText .TableOfContents ul li,
+.MainForm fieldset#SubmissionAuthors #AuthorGroupsList li .AuthorsList li .AuthorIsMember, // Form - authors field
+.RecipientGroups .RecipientGroup .MasterSwitch .CustomOptionsToggle // Notifications settings page
+{
+	color: var(--BlueColor);
+	text-shadow: var(--TextShadow);
+}
+
+a:hover,
+.Linklike:hover,
+.RichText .TableOfContents ul li:hover,
+.RecipientGroups .RecipientGroup .MasterSwitch .CustomOptionsToggle:hover, // Notifications settings page
+.AdvancedListSettingsModule>.Content .OrderAndSortControls fieldset legend:hover, // Modlog filters
+#AlertsNavModule pane .Broadcasts>li .Messages li small a:hover,
+#ActivityNavModule pane .Broadcasts>li .Messages li small a:hover,
+#LicenseModule div.Content a:hover,
+#AttributesModule a:hover,
+#SectionAddFormSelectorModule .Content #SelectSectionStep .Column li a:hover div strong, // New submission add form
+#SectionAddFormSelectorModule .Content #SelectSectionStep .Column li a:hover div small, // New submission add form
+recordCell.Identifiers .DirectCategory a:hover
+{
+	color: var(--PurpleColor);
+}
+
+#ManagersListModule ul li .SeniorPermitHolder // Senior Managers star icon
+{
+	color: var(--RedColor);
+	top: -5px;
+	right: -5px;
+	text-shadow: var(--TextShadow);
+}
+
+#ModInstallerPromoModule ul li a, // Mod Installer promo
+#GamesListModule .Endnote a // BananaExchange "More" link
+{
+	background: rgba(21, 21, 21, 0.8);
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+article>ul li,
+article>ul ul li,
+#AdminLinksModule #Links>li ul li // Admin dashboard
+{
+	list-style-type: disc;
+}
+
+.PageModule > .Description
+{
+	display: inline-block;
+	padding: 0.5rem;
+	color: var(--WhiteColor);
+}
+
+itemCount // Item Count
+{
+	font-family: var(--MonoFont);
+	color: var(--GreenColor);
+}
+
+#UnlocksEditFormModule .MainForm .Submit, // Unlocks Page Sticky "Save" Button
+#MasterLog log
+{
+	border-radius: 5px;
+	border: 0;
+	box-shadow: 0 0 10px var(--BlackColor);
+	background: var(--FieldBGColor);
+	padding: 1rem;
+}
+
+#MasterLog log
+{
+	background: var(--BlackColor);
+
+	span
+	{
+		border: 0;
+	}
+}
+
+// History page
+
+#HistoryListModule .Content .Changes li .NewVersion .ValueWrapper,
+#HistoryListModule .Content .Changes li .PreviousVersion .ValueWrapper,
+#CodeViewerModule .CodeWithLineNumbers,
+#ArchiveTreesModule .Content>ul>li .ArchiveTreeWrapper, // File Info section
+#ItemProfileModule .Content pre // Submission "pre" tag
+{
+	border: 0;
+	border-radius: 5px;
+	padding: 0.5rem;
+	font-family: var(--MonoFont);
+	box-shadow: inset 2px 2px 2px var(--BlackColor);
+	background: rgba(21, 21, 21, 0.9);
+}
+
+#CodeViewerModule .CodeWithLineNumbers .Code
+{
+	border: 0;
+}
+
+.ScriptPreview
+{
+	border-radius: 3px;
+}
+
+.PostsListModule .Posts>li .PostTools .PostUrlForm input // Share post input field
+{
+	padding: 0.5rem;
+}
+
+.PostsListModule .Posts>li.IsExemplary // Exemplary post
+{
+	background: rgba(116, 190, 149, 0.05);
+	border-radius: 5px;
+	border: 1px solid var(--GreenColor);
+	padding: 1rem;
+	box-shadow: inset 0 0 10px var(--GreenColor);
+}
+
+.PostsListModule .Posts>li // Posts list
+{
+	transition: var(--TransitionAll);
+	border-bottom: 2px solid rgba(169, 169, 169, 0.3);
+}
+
+#UnlocksEditFormModule fieldset // Remove background color from the Unlocks settings page listing, apply white color to text
+{
+	background: 0;
+	color: var(--WhiteColor);
+}
+
+// Discussions Page, Search Results Page
+
+#DiscussionsListModule .Content .List li
+{
+	background: rgba(21, 21, 21, 0.3);
+	border-radius: 5px;
+}
+
+#DiscussionsListModule .Content .List li .Row1
+{
+	border-left: none;
+
+	span
+	{
+		margin: 0 0.3rem;
+	}
+}
+
+#DiscussionsListModule .Content .List li .Row2
+{
+	background: rgba(21, 21, 21, 0.6);
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#DiscussionSectionsSummaryModule li
+{
+	background: rgba(21, 21, 21, 0.2);
+	padding: 0.5rem;
+	border: 0;
+	margin: 0.5rem 0;
+	border-radius: 5px;
+}
+
+#DiscussionSectionsSummaryModule li.ActiveSection,
+#SectionMatchesModule ul li.Selected a,
+#SectionMatchesModule ul li:hover a,
+#GameMatchesModule ul li.Selected a,
+#GameMatchesModule ul li:hover a
+{
+	background: rgba(21, 21, 21, 0.5);
+}
+
+#DiscussionSectionsSummaryModule li.ActiveSection a,
+#SectionMatchesModule ul li.Selected a span,
+#GameMatchesModule ul li.Selected a span
+{
+	color: var(--WhiteColor);
+}
+
+#SearchResultsModule record recordCell.Attributes ul
+{
+	background: rgba(21, 21, 21, 0.5);
+	border: 0;
+	border-radius: 3px;
+	font-family: var(--MonoFont);
+	font-size: var(--BodyFontSize);
+	padding: 0.5rem;
+}
+
+// Home Page Sections Listing
+
+#SectionExplanationsModule #SectionAreas>li .Sections li .AddLink
+{
+	transition: .1s ease-in-out;
+}
+
+#SectionExplanationsModule #SectionAreas>li .Sections li itemCount
+{
+	font-size: var(--BodyFontSize);
+}
+
+// Home Page Games Filters
+
+#SubmissionsListAdvancedListSettingsModule .SelectedGames:empty:after
+{
+	color: var(--RedColor);
+	padding: 0.5rem;
+	font-size: var(--BodyFontSize);
+	text-shadow: var(--TextShadow);
+}
+
+#SubmissionsListAdvancedListSettingsModule .RecentGames li
+{
+	transition-duration: .1s;
+	opacity: 0.7;
+}
+
+// Features Module
+
+#FeaturesSliderModule
+{
+	background: rgba(21, 21, 21, 0.5);
+}
+
+#FeaturesSliderModule .Slides .Slide,
+#FeaturesSliderModule .Slides .ExpandedSlide
+{
+	border-radius: 5px;
+	transition: opacity .1s ease-in-out;
+}
+
+#FeaturesSliderModule #SlideShortcuts .Slide.Selected
+{
+	border-top-color: var(--YellowColor);
+}
+
+#FeaturesSliderModule .Slides .Slide .Info wrapper.Stats statWrapper,
+#FeaturesSliderModule .Slides .ExpandedSlide .Info wrapper.Stats statWrapper
+{
+	border-radius: 3px;
+}
+
+.SoundPreview audio
+{
+	width: 100%;
+}
+
+// Home Page Games Module
+
+.AdvancedElement_Tabs li:hover,
+.AdvancedElement_Tabs li.Selected
+{
+	border-bottom-color: var(--PurpleColor);
+	color: var(--PurpleColor);
+	background: rgba(218, 112, 214, 0.2);
+}
+
+.AdvancedElement_Tabs li
+{
+	transition: var(--TransitionAll);
+}
+
+#TopGamesModule .Content .AdditionalLinks a
+{
+	background: rgba(21, 21, 21, 0.8);
+	padding: 1rem;
+	border-radius: 3px;
+}
+
+#TopGamesModule .Content .GamesList li
+{
+	font-size: var(--BodyFontSize);
+
+	a span
+	{
+		color: var(--GreyColor)
+	}
+}
+
+#TopGamesModule .Content .GamesList li a .Banner
+{
+	transition: var(--TransitionAll);
+	box-shadow: 0 0 10px var(--BlackColor);
+}
+
+dt
+{
+	font-size: var(--BodyFontSize);
+	color: var(--GreyColor);
+}
+
+#SectionsModule .Info .CategoriesListWrapper // Sub-categories toggle
+{
+	border: 0;
+	box-shadow: inset 0 0 15px var(--BlackColor);
+	border-radius: 5px;
+	font-size: var(--BodyFontSize);
+}
+
+#SectionAddFormSelectorModule .Content #SelectSectionStep .Column li a div small // New submission add form
+{
+	color: var(--WhiteColor);
+	font-size: var(--BodyFontSize);
+}
+
+// Modal Close Icon
+
+.Modal .CloseModal
+{
+	color: var(--GreyColor);
+}
+
+.Modal .CloseModal:hover
+{
+	color: var(--RedColor);
+	text-shadow: var(--TextShadow);
+}
+
+.MainForm .InputsWrapper .InputHasError .InputHelp,
+.MainForm .InputsWrapper .InputHasError .InputError,
+.MainForm .InputsWrapper .InputHasError .InputWrapper
+{
+	border-left-color: var(--RedColor);
+}
+
+// Code, Pre
+
+code,
+pre
+{
+	font-family: var(--MonoFont);
+	color: var(--GreenColor);
+}
+
+// Ripe Page
+
+#SubShopperModule #SubscriptionTiers li wrapper,
+#RipePromoImagesModule .Content .RichText img
+{
+	border: 0;
+	border-radius: 5px;
+}
+
+#SubShopperModule #SubscriptionTiers li.Selected wrapper
+{
+	border-color: var(--BlueColor);
+	color: var(--BlueColor);
+}
+
+#AllUnlocksList li strong,
+#AllUnlocksList li .PointsCost
+{
+	font-size: var(--BodyFontSize) !important;
+}
+
+#SubShopperModule #CcPaymentForm #CardNumber
+{
+	border-radius: 3px;
+}
+
+#CodeViewerModule controls column:last-of-type .DecreaseButton // Increase right margin for Scripts zoom in/out buttons
+{
+	margin-right: 0.5rem;
+}
+
+#RulesModule ol li
+{
+	font-size: var(--BodyFontSize);
+	color: var(--RedColor);
+	text-shadow: var(--TextShadow);
+}
+
+// License Module
+
+#LicenseModule article li,
+#LicenseModule li
+{
+	list-style-position: inside;
+}
+
+#LicenseModule article
+{
+	border: 0;
+	border-radius: 5px;
+	padding: 1rem;
+	box-shadow: inset 2px 2px 15px var(--BlackColor);
+}
+
+#AlternateFileSourcesModule li // Alternate File Sources module
+{
+	padding: 1rem;
+	border-radius: 5px;
+	background: rgba(21, 21, 21, 0.7);
+	letter-spacing: 1px;
+}
+
+#SectionsNavModule pane header>a
+{
+	border-radius: 3px;
+}
