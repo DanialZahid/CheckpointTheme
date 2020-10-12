@@ -1,0 +1,121 @@
+.MainForm fieldset .UploadedFiles
+{
+	background: 0 !important;
+	border: 0 !important;
+}
+
+.MainForm fieldset .UploadedFiles li
+{
+	background: 0;
+	border-radius: 0;
+}
+
+.MainForm fieldset#SubmissionAuthors #AuthorGroupsList,
+.MainForm fieldset#SubmissionAuthors #AuthorGroupsList li .AuthorsList,
+fieldset.CustomizableDefinitionList .InputWrapper .DefinitionListEntries ul,
+#ProfileWysiwygEditor .InputWrapper #TemplateGrid row,
+#ProfileWysiwygEditor .InputWrapper #TemplateGrid row column placeholder,
+#ProfileWysiwygEditor .InputWrapper #AvailableModules,
+#EmbeddableImagesListModule li .Codes,
+.MainForm fieldset#Attributes .AvailableAttributes ul .AttributesGroup,
+.MainForm fieldset#Requirements ul,
+#NavOptionsNavModule pane #NavOptionsUiThemeList,
+.MainForm fieldset#AlternateFileSources ul,
+.MainForm fieldset#EmbeddedMedia ul,
+#Recipients .RecipientGroup>div ul,
+.Editor .WysiwygPalettes .ImageInserter ul,
+.Editor .WysiwygPalettes .UsernameInserter ul,
+.Editor .WysiwygPalettes .BitpitFileInserter ul
+{
+	background: var(--ListBGColor);
+	border: 0;
+	border-radius: 5px;
+}
+
+.MainForm fieldset#SubmissionAuthors #AuthorGroupsList li,
+.MainForm fieldset#SubmissionAuthors #AuthorGroupsList li .AuthorsList li,
+fieldset.CustomizableDefinitionList .InputWrapper .DefinitionListEntries ul li,
+#ProfileWysiwygEditor .InputWrapper #TemplateGrid row column,
+#ProfileWysiwygEditor .InputWrapper #AvailableModules .TemplateModule,
+.MainForm fieldset#Attributes .SelectedAttributes ul li,
+.MainForm fieldset#Requirements ul li,
+#NavOptionsNavModule pane #NavOptionsUiThemeList li,
+.MainForm fieldset#AlternateFileSources ul li,
+.MainForm fieldset#EmbeddedMedia ul li,
+#Recipients .RecipientGroup>div ul li,
+.Editor .WysiwygPalettes .UsernameInserter ul li
+{
+	background: var(--GreyColor);
+	border-radius: 5px;
+}
+
+// Updates Module
+
+#ChangeLog ul
+{
+	background: var(--ListBGColor) !important;
+	border: 0 !important;
+	border-radius: 5px !important;
+}
+
+#ChangeLog ul li
+{
+	background: var(--GreyColor) !important;
+	border-radius: 5px !important;
+}
+
+// PM Recipients
+
+#Recipients .RecipientGroup>div ul li
+{
+	opacity: 0.7;
+	margin: 0.3rem 0.5rem;
+	transition: var(--TransitionScale);
+	font-size: var(--BodyFontSize);
+}
+
+#Recipients .RecipientGroup>div ul li:hover,
+#Recipients .RecipientGroup>div ul li.SelectedRecipient
+{
+	background: var(--GreyColor);
+	opacity: 1;
+}
+
+#Recipients .RecipientGroup>div ul li.SelectedRecipient
+{
+	color: var(--BlackColor);
+	transform: var(--Scale);
+	margin-right: 0.7rem;
+}
+
+.MainForm fieldset#SubmissionAuthors #AuthorGroupsList li .AuthorsList li #UsernameSuggestions li,
+.MainForm fieldset#Category .UberSelect .OptionsWrapper .Options li
+{
+	margin: 0;
+	font-size: var(--BodyFontSize);
+	padding: 0.3rem;
+	border-radius: 0;
+	text-shadow: none;
+}
+
+.MainForm fieldset#SubmissionAuthors #AuthorGroupsList li .AuthorsList li #UsernameSuggestions li:hover
+{
+	background: var(--PurpleColor);
+	color: var(--BlackColor);
+}
+
+.AdvancedElement_InputSuggestionsList li
+{
+	font-family: var(--MonoFont);
+	color: var(--BlackColor);
+	background: var(--GreyColor);
+	font-size: var(--BodyFontSize);
+	padding: 0.3rem;
+	border-radius: 0;
+}
+
+fieldset#Userid .AdvancedElement_InputSuggestionsList li:hover,
+.AdvancedElement_InputSuggestionsList li:hover
+{
+	background: var(--PurpleColor);
+}

@@ -1,0 +1,135 @@
+record
+{
+	transition: var(--TransitionAll);
+}
+
+records.Classic,
+table
+{
+	width: 100%;
+}
+
+records.Classic record recordCell
+{
+	padding: 0.5rem;
+	border-bottom: 1px solid var(--BlackColor);
+}
+records.Classic,
+table
+{
+	border-spacing: 0;
+	border: 1px solid var(--BlackColor);
+	background: rgba(110, 110, 110, 0.1);
+}
+
+records.Classic columnHeadings columnHeading,
+table thead th
+{
+	color: var(--WhiteColor);
+	font-family: var(--HeadingFont);
+	text-transform: uppercase;
+	background: #6e6e6e;
+	padding: 0.5rem;
+}
+
+records.List record
+{
+	border-bottom: 2px solid rgba(169, 169, 169, 0.3);
+}
+
+table thead th
+{
+	border: 0;
+	font-size: var(--FontSizeMedium);
+	font-weight: 100;
+}
+
+records.Classic record:hover
+{
+	background: rgba(52, 52, 52, 0.5);
+}
+
+records.Grid record
+{
+	transition: var(--TransitionScale);
+}
+
+records.Grid record:hover
+{
+	transform: var(--Scale);
+}
+
+records.Grid recordCell.Category
+{
+	top: 0.5rem;
+	right: 1rem;
+}
+
+recordcell.Moderator
+{
+	text-align: center;
+}
+
+// Remove Bottom Border
+
+#CurrentExemplificationsListModule recordCell,
+#CurrentExemplificationPointsReceivedListModule recordCell,
+#RanksListModule recordCell,
+#CurrentSubscribersListModule recordCell,
+#ThankPointsReceivedListModule recordCell,
+#ThanksReceivedListModule recordCell,
+#ThankPointsSentListModule recordCell,
+#ThanksSentListModule recordCell,
+#DonationPointsSentListModule recordCell,
+#DonationsSentListModule recordCell,
+#DonationPointsReceivedListModule recordCell,
+#DonationsReceivedListModule recordCell,
+#CurrentSubmissionsListModule recordCell
+{
+	border: 0;
+}
+
+#OverviewModule .Content .StatBlock dl dd.Type_table
+{
+	border: 0;
+	box-shadow: inset 3px 3px 10px var(--BlackColor);
+	background: rgba(241, 242, 246, 0.1);
+	border-radius: 5px;
+}
+
+#MembersListModule recordCell.Member
+{
+	display: table-cell;
+}
+
+// Remove Transform Property From Portfolio Records
+
+#PortfolioEntriesListModule record:hover
+{
+	transform: none;
+}
+
+// Improve Margin/Spacing On Various Modules
+
+#ParticipantsListModule recordCell, // Contest - Participants section
+#RanksListModule recordCell, // Studio - Ranks section
+#RedeemedKeysListModule recordCell, // BananaExchange - redeemed keys module
+#AvailableKeysListModule recordCell // BananaExchange - available keys module
+{
+	margin: 0 0.5rem;
+}
+
+// Fix certain records listing
+
+#MembersListModule recordCell, // Members section
+#SubmissionsListModule recordcell // Medals section
+{
+	border-radius: 0;
+	transform: none;
+	border: 0;
+}
+
+recordCell.Preview // Add box shadow to record previews
+{
+	box-shadow: 1px 1px 10px var(--BlackColor);
+}

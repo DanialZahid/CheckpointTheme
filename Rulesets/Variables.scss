@@ -1,0 +1,68 @@
+:root
+{
+	// Generic
+
+	--RootFontSize: 10px;
+	--BodyFontSize: 1.3rem;
+	--FontSizeMedium: 2rem;
+
+	--GlobalFont: "Source Sans Pro", sans-serif;
+	--HeadingFont: "Squada One", cursive;
+	--MonoFont: "Roboto Mono", monospace;
+
+	--TextShadow: 1px 1px 1px var(--BlackColor);
+
+	--TransitionScale: transform .1s ease-in-out;
+	--TransitionAll: all .1s ease-in-out;
+	--Scale: scale(1.1);
+
+	// Colors
+
+	--BlackColor: #151515;
+	--BlueColor: #39a9db;
+	--GreenColor: #74be95;
+	--GreyColor: #a9a9a9;
+	--OrangeColor: #f0932b;
+	--PurpleColor: #da70d6;
+	--RedColor: #ee5253;
+	--WhiteColor: #f1f2f6;
+	--YellowColor: #feca57;
+
+	--HeadingColor: #dcdde1;
+	--NavsFooterColor: #313131;
+
+	--ButtonBGColor: #171717;
+	--ButtonFGColor: #dfe6e9;
+
+	--FieldBGColor: #d8d8d8;
+	--ListBGColor: rgba(241, 242, 246, 0.5); 
+
+	// Default Colors Overrides
+
+	--DefaultBlueColor: var(--BlueColor);
+	--DefaultGreenColor: var(--GreenColor);
+	--DefaultGreyColor: var(--GreyColor);
+	--DefaultOrangeColor: var(--OrangeColor);
+	--DefaultPurpleColor: var(--PurpleColor);
+	--DefaultRedColor: var(--RedColor);
+	--DefaultTextColor: var(--WhiteColor);
+	--DefaultYellowColor: var(--YellowColor);
+
+	--LinkColor: var(--BlueColor);
+	--LinkHoverColor: var(--PurpleColor);
+
+	// Default Font Families Overrides
+
+	--DefaultTextFontFamily: var(--GlobalFont);
+	--DefaultTechnicalFontFamily: var(--MonoFont);
+
+	// Other Overrides
+
+	--AdvancedElementTabsActiveTabFontColor: var(--PurpleColor);
+	--AdvancedElementTabsActiveTabBorderColor: var(--PurpleColor);
+	--SubNavigatorActiveTabBorderColor: var(--BlueColor);
+	--SubNavigatorTabHoverBorderColor: var(--GreyColor);
+	--SubNavigatorActiveTabFontColor: var(--BlueColor);
+
+	--ModuleDescriptionFontSize: 1.5rem;
+}

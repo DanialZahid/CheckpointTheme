@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro&family=Squada+One&display=swap");
+.Avatar, .Avatar img, #FeaturesSliderModule img, #CheckpointCreatorPromoModule .Content img, .Avatar.IsRipeSupporter, .Avatar.HasClearanceLevel, .Trasher img, .Ownership img, #SearchResultsModule record recordCell.Submitter img, #SubmissionsListModule .Managers li img { border-radius: 50%; transition: var(--TransitionScale); }
+
+#SearchResultsModule record recordCell.Submitter img { width: auto; }
+
+.Avatar.IsRipeSupporter { padding: 0.5rem; }
+
+.Avatar.HasClearanceLevel { border: 2px solid var(--RedColor); box-shadow: none; }
+
+.Avatar:hover, .Trasher img:hover, #CheckpointCreatorPromoModule .Content img:hover, .Ownership img:hover, #SearchResultsModule record recordCell.Submitter img:hover, #SubmissionsListModule .Managers li img:hover { transform: var(--Scale); }
+
+.Avatar.Online:after, .MemberLink.Online:after { border: 2px solid var(--BlackColor); background: var(--GreenColor); width: 12px; height: 12px; box-shadow: none; border-radius: 50%; }
+
+.PostsListModule .Posts > li .PostReplies .AvatarWrapper .Avatar, #PendingSubmissionsListModule recordCell.Moderator .Avatar { width: 2rem; height: 2rem; }
+
+#SubmissionsListModule .Managers li img { width: 3rem; height: 3rem; }
+
+#GamesListModule .Content > ul > li .Preview { transition-duration: .1s; }
+
+#GamesListModule .Content .SteamInfoRollout .Screenshots a img { border: 0; box-shadow: 3px 3px 10px var(--BlackColor); border-radius: 3px; transition: var(--TransitionScale); }
+
+#GamesListModule .Content .SteamInfoRollout .Screenshots a img:hover { transform: var(--Scale); }
+
+#RedeemedKeysListModule record, #AvailableKeysListModule record, #ParticipantsListModule record, #RanksListModule record { padding: 1rem; margin: 0.5rem 0; background: rgba(0, 0, 0, 0.2); }
+
+#ItemProfileModule .BannerWrapper, #KeyInfoModule .BannerWrapper { border: 0; }
+
+#ItemProfileModule .BannerWrapper img, #KeyInfoModule .BannerWrapper img { border-radius: 5px; }
+
+#GamesListModule .Content .SteamInfoRollout { background: rgba(21, 21, 21, 0.3); border: 0; border-radius: 5px; transition-duration: .1s; }
+
+#NewBexGamesModule li { transition-duration: .1s; }
+
+#NewBexGamesModule li a, #BexPromoModule .Content > a { box-shadow: 0 0 10px var(--BlackColor); transition: var(--TransitionScale); }
+
+#NewBexGamesModule li a:hover, #BexPromoModule .Content > a:hover { transform: var(--Scale); }
+
+button, .ButtonLike { color: var(--ButtonFGColor); background: var(--ButtonBGColor); transition: var(--TransitionScale); border-radius: 3px; padding: 0.5rem; letter-spacing: 1px; font-size: var(--BodyFontSize); }
+
+button.IconButton, .ButtonLike.IconButton { padding: 0.5rem; margin-right: 0.5rem; }
+
+button:hover, button.Expanded, .ButtonLike:hover, .ButtonLike.Expanded button[disabled]:hover, button[disabled].Expanded, .ButtonLike[disabled]:hover, .ButtonLike[disabled].Expanded, button.Selected, .ButtonLike.Selected { color: var(--ButtonFGColor) !important; background: var(--ButtonBGColor) !important; transform: var(--Scale) !important; }
+
+button.IconButton span, button.IconButton hoverAlt, .ButtonLike.IconButton span, .ButtonLike.IconButton hoverAlt { padding: 0.3rem; border: 0; }
+
+.DisabledModalLauncher { transform: var(--Scale) !important; opacity: 0.3; cursor: not-allowed; }
+
+button.TogglePostRepliesButton.ExtendedContentButton.PreviouslyExpanded.Expanded, button.HiddenPostToggleButton.ExtendedContentButton.Expanded { opacity: 0.3; }
+
+.ExtendedContentButton { background: var(--ButtonBGColor); color: var(--ButtonFGColor); }
+
+#FilesModule .Content ul li .DownloadOptions a { color: var(--BlackColor); background: var(--GreenColor); transition: var(--TransitionAll); font-family: var(--HeadingFont); text-transform: uppercase; border-radius: 3px; padding: 1rem; margin: 0.3rem 1rem; letter-spacing: 1px; text-shadow: none; }
+
+#FilesModule .Content ul li .DownloadOptions a:hover { transform: var(--Scale); background: var(--GreenColor); }
+
+.IconOnlyButton { padding: 0.5rem !important; }
+
+.PostsListModule .Posts > li .PostTools > * { margin-right: 0.5rem; }
+
+.Editor .Toolbars > div button { margin: 0.2rem; }
+
+#PageFooter #ImportantLinks li a { color: var(--ButtonFGColor); background: var(--ButtonBGColor); transition: var(--TransitionScale); margin-bottom: 1rem; border-radius: 3px; padding: 1rem; letter-spacing: 1px; }
+
+#PageFooter #ImportantLinks li a:hover { background: var(--ButtonBGColor); transform: var(--Scale); }
+
+.AdvancedElement_Switch.Inline ul li { border-radius: 3px !important; opacity: 0.7; }
+
+.AdvancedElement_Switch.Inline ul li:hover { opacity: 1; }
+
+.AdvancedElement_Switch li { font-family: var(--MonoFont); margin-right: 1.5rem; }
+
+.AdvancedElement_Switch.Inline ul li.ButtonLike.Selected { background: var(--ButtonBGColor) !important; transform: var(--Scale) !important; opacity: 1; }
+
+#NavOptionsSaverButton, #NavOptionsSaverButton:hover, #UnlocksEditFormModule .IconButton, #UnlocksEditFormModule .IconButton:hover { background: var(--BlueColor) !important; }
+
+#ScrubberFormModule .Submit button { color: var(--RedColor) !important; padding: 1rem; }
+
+#HistoryListModule .Content .Changes li .NewVersion > button, #HistoryListModule .Content .Changes li .PreviousVersion > button { margin: 0 0.3rem; opacity: 0.7; }
+
+#HistoryListModule button.Selected { opacity: 1 !important; }
+
+.PostsListModule .Posts > li .PostTools .TopAnswerToggleButton { margin-left: 0.5rem; }
+
+.GreenColor, #OverviewModule .Content .StatBlock dl dd .ChangeResult_positive, .meter4, stateLabel.IdeaResolution_addressed, stateLabel.QuestionState_Solved, stateLabel[data-_sThreadState="Done"], stateLabel.ContestState_Running, stateLabel[data-_sTutorialDifficulty="Beginner"], .AvatarTooltip .Column .OnlineStatus stateLabel.Online, .MainForm .InputsWrapper fieldset > legend stateLabel.RecommendedInput, stateLabel[data-_sUpdateType="Adjustment"], stateLabel[data-_sUpdateType="Amendment"], #PrimaryNav #SubmissionsNavModule pane column itemCount, #SecondaryNav #SubmissionsNavModule pane column itemCount, .PostsListModule .Posts > li .PostHeader .PostLabels stateLabel.IsExemplary, .Editor .ViewModeSwitchers span.Source, #ModlogListModule .Action.Severity_positive span, #SectionMatchesModule ul li a itemCount, #GameMatchesModule ul li a itemCount, #PointsModule .ClimbedRank, #SectionExplanationsModule #SectionAreas > li .Sections li itemCount.RecentlyAddedItems, .QuestionPreview blockquote.Solved, .MainForm .InputsWrapper .CategoryTabs li small .RecommendedInputsCount, #Member_Submissions_Todo #SubmissionsListModule .Identifiers.Status_Complete > span, #TodosModule .Identifiers.Status_Complete > span, #BexPromoModule .Content > a .PointCostOverlay, #GamesListModule .Content > ul > li .Preview .PointCost, #AvailableKeysListModule h3, #AvailableKeysListListToolbarModule button span, #KeyInfoModule .BannerWrapper .PointCost, #SubNavigator li itemCount, stateLabel.RequestResolution_delivered, #PurchasesListModule li .GameBanner .PointsCost, #NewBexGamesModule li a overlay.PointsCost, #BuddiesListModule recordCell.Status stateLabel.Online, stateLabel.PermitLevel_junior, #PendingSubmissionsListModule recordCell.Status stateLabel.Status_0 { color: var(--GreenColor); }
+
+.RedColor, p.NoRecordsFound, .LessThan5minsOld, .LessThan30minsOld, #OverviewModule .Content .StatBlock dl dd .ChangeResult_negative, #PointsModule .DroppedRank, #LicenseModule article footer, .InputWrapper.RedColor, .meter1, #PrivateAccessNoticeModule, #PrivateAccessNoticeModule h3, stateLabel.BugResolution_confirmed, stateLabel.BugPriority_high, stateLabel.BugPriority_emergency, stateLabel.SupportResolution_open, stateLabel.SupportResolution_closed, stateLabel.IdeaResolution_cannot_address, stateLabel.IdeaResolution_wont_address, stateLabel.IdeaResolution_duplicate, stateLabel.QuestionState_Unanswered, stateLabel[data-_sTutorialDifficulty="Advanced"], stateLabel[data-_sUpdateType="Overhaul"], stateLabel[data-_sUpdateType="BugFix"], #PageFooter #ImportantLinks li #AddBugLink span, #LicenseModule div.Content a, .Editor .WysiwygPalettes .ImageInserter ul:empty:after, #ModeratorNoticeModule article, #HistoryListModule .Content .Changes li .NewVersion .ValueWrapper del, #HistoryListModule .Content .Changes li .PreviousVersion .ValueWrapper del, #Member_Submissions_Flag #SubmissionsListModule .Preview.FlagState_0 ul, #FlagsModule .Preview.FlagState_0 ul, stateLabel.FlagState_3, #ModlogListModule .Action.Severity_negative span, #WithholdNoticeModule, #WithholdNoticeModule h3, #PointsModule .DroppedRank, #SubmissionsListAdvancedListSettingsModule .SelectedGames li:hover matIcon, .QuestionPreview blockquote.Unanswered, #UnwithholdInstructionsModule, #UnwithholdInstructionsModule h3, .LessThan1HourOld, .MainForm .InputsWrapper .InputHasError .InputError, .MainForm .InputsWrapper fieldset > legend stateLabel.ErroneousInput, .MainForm .InputsWrapper .CategoryTabs li small .ErroneousInputsCount, stateLabel.TodoPriority_3, #SubShopperModule #CcPaymentForm #CardErrorMessage, .ElementsApp .InputElement.is-invalid, #BexPromoModule .Content > a .MoneyCostOverlay, #NewBexGamesModule li a overlay.Availability, #GamesListModule .Content > ul > li .Preview .SoldOutLabel, #FlagNoticeModule, #FlagNoticeModule h3, stateLabel.RequestResolution_undeliverable, stateLabel.RequestResolution_cancelled, stateLabel.RequestResolution_duplicate, stateLabel.IsTrashed, stateLabel.PermitLevel_senior, #PendingSubmissionsListModule recordCell.Status stateLabel.Status_3 { color: var(--RedColor); }
+
+.BlueColor, .meter5, stateLabel.BugResolution_new, stateLabel.IdeaResolution_will_address, stateLabel.QuestionState_Answered, stateLabel[data-_sThreadState="Unanswered"], stateLabel[data-_sTutorialDifficulty="Intermediate"], .MainForm .InputsWrapper fieldset > legend stateLabel.RequiredInput, stateLabel[data-_sUpdateType="Addition"], stateLabel[data-_sUpdateType="Suggestion"], stateLabel[data-_sUpdateType="Feature"], stateLabel.IsCreator, .PostsListModule .Posts > li .PostHeader .PostLabels stateLabel.IsSubmitter, #PageFooter #ImportantLinks li #AddTicketLink span, .Editor .ViewModeSwitchers span.Backup, #HistoryListModule .Content .Changes li .NewVersion .ValueWrapper ins, #HistoryListModule .Content .Changes li .PreviousVersion .ValueWrapper ins, stateLabel.FlagState_0, #SectionExplanationsModule #SectionAreas > li .Sections li itemCount.RecentlyUpdatedItems, #SubmissionsListAdvancedListSettingsModule .RecentGames li:hover matIcon, .QuestionPreview blockquote.Answered, .MainForm .InputsWrapper .CategoryTabs li small .RequiredInputsCount, stateLabel.RequestResolution_open, stateLabel.RequestResolution_in_delivery { color: var(--BlueColor); }
+
+.GreyColor, .OlderThan1Day, stateLabel.BugPriority_low, stateLabel.BugResolution_closed, stateLabel.SupportResolution_closed, stateLabel.QuestionState_closed, stateLabel[data-_sThreadState="Closed"], stateLabel.ContestState_Ended, .AvatarTooltip .Column .OnlineStatus stateLabel.Offline, stateLabel[data-_sUpdateType="Removal"], stateLabel[data-_sUpdateType="Refactor"], #AlertsNavModule pane .Broadcasts > li .Messages li small, #ActivityNavModule pane .Broadcasts > li .Messages li small, #AlertsNavModule pane .Broadcasts > li .Messages li small a, #ActivityNavModule pane .Broadcasts > li .Messages li small a, #AuthorsAndRolesModule .Content dd.Author, #SectionsModule .Info itemcount, recordCell.Identifiers .DirectCategory a, #SimpleSearchFormModule small > span, #SearchResultsModule record recordCell.Attributes ul li small, #SectionExplanationsModule #SectionAreas > li .Sections li itemCount, #BuddiesNavModule pane article .ChannelContents > .Messages > .Message small, #BuddiesListModule recordCell.Status stateLabel.Offline, stateLabel.TodoPriority_1, stateLabel.RequestResolution_expired, #CtaNoticeModule small, #CategoriesListModule record .Info itemcount, #GamesListModule .Content > ul .SoldOut .Preview .PointCost, stateLabel.IdeaResolution_unknown { color: var(--GreyColor); }
+
+.PurpleColor, stateLabel.BugResolution_feedback, stateLabel.SupportResolution_feedback, stateLabel[data-_sThreadState="Stuck"], stateLabel[data-_sUpdateType="Improvement"], stateLabel[data-_sUpdateType="Optimization"], stateLabel[data-_sUpdateType="Tweak"], .Editor .ViewModeSwitchers span.Wysiwyg, #Category .UberSelect .OptionsWrapper .Options li:hover, #Attributes .AvailableAttributes h5:hover, #PendingSubmissionsListModule recordCell.Status stateLabel.Status_4 { color: var(--PurpleColor); }
+
+.OrangeColor, .LessThan4HoursOld, .meter2, stateLabel.BugPriority_medium, stateLabel.IsRedistributor, stateLabel.IsFlagged, #PendingSubmissionsListModule recordCell.Status stateLabel.Status_5 { color: var(--OrangeColor); }
+
+.meter3, #PageFooter #ImportantLinks li #AddIdeaLink span { color: var(--YellowColor); }
+
+#AttributesModule a, #SectionMatchesModule ul li a span, #GameMatchesModule ul li a span { color: var(--WhiteColor); }
+
+.SubmittersFeedbackInstructions, #EmbeddableImagesListModule li input { color: var(--BlackColor); }
+
+#MedalProgressModule .Content ul li .ErrorBar, .IdeaPreview gauge indicator.Negativity, .meter1 .simplePassMeterProgress { background: var(--RedColor); }
+
+#MedalProgressModule .Content ul li .CompletedBar, .IdeaPreview gauge indicator.Positivity, .meter4 .simplePassMeterProgress { background: var(--GreenColor); }
+
+#MedalProgressModule .Content ul li .ProgressBar .CurrentProgress, .meter5 .simplePassMeterProgress { background: var(--BlueColor); }
+
+#MedalProgressModule .Content ul li .ProgressBar { background: var(--GreyColor); }
+
+.meter2 .simplePassMeterProgress { background: var(--OrangeColor); }
+
+.meter3 .simplePassMeterProgress { background: var(--YellowColor); }
+
+input[type=text], input[type=password], input[type=password], input[type=number], input[type=email], input[type=num], input[type=tel], select, .SelectLike, option, .OptionLike, optgroup, textarea, .TextareaLike, .Editor .ViewModes .Wysiwyg .RichText { border: 1px solid var(--BlackColor); border-radius: 5px; font-size: var(--BodyFontSize); font-family: var(--MonoFont); padding: 1rem; color: var(--BlackColor); background: var(--FieldBGColor); box-shadow: inset 1px 1px 3px rgba(21, 21, 21, 0.7); }
+
+input[type=text]:hover, input[type=password]:hover, input[type=password]:hover, input[type=number]:hover, input[type=email]:hover, input[type=num]:hover, input[type=tel]:hover, select:hover, .SelectLike:hover, option:hover, .OptionLike:hover, optgroup:hover, textarea:hover, .TextareaLike:hover, input[type=text]:focus, input[type=password]:focus, input[type=password]:focus, input[type=number]:focus, input[type=email]:focus, input[type=num]:focus, input[type=tel]:focus, select:focus, .SelectLike:focus, option:focus, .OptionLike:focus, optgroup:focus, textarea:focus, .TextareaLike:focus { background: var(--FieldBGColor); }
+
+fieldset { background: var(--GreyColor); border-radius: 5px; padding: 1rem; color: var(--BlackColor); }
+
+fieldset h1, fieldset h2, fieldset h3, fieldset h4, fieldset h5, fieldset h6, fieldset legend, fieldset .Title { color: var(--BlackColor); font-weight: 100; text-shadow: none; }
+
+select:disabled, .SelectLike:disabled { cursor: not-allowed; }
+
+#SectionAddFormSelectorModule .Content #SelectGameStep .GamesList .LetterGroup { color: var(--BlueColor); text-shadow: var(--TextShdow); }
+
+.MainForm { max-width: 100% !important; }
+
+.MainForm .InputsWrapper fieldset > legend { top: 20px; }
+
+.MainForm .InputsWrapper fieldset .InputHelp { padding: 0.5rem; margin: 0.5rem 0; font-size: var(--BodyFontSize); color: var(--BlackColor); }
+
+.MainForm fieldset#Category .Category small { color: var(--BlackColor); font-size: 1.3rem; }
+
+.MainForm .Submit { background: 0; }
+
+.MainForm .InputsWrapper fieldset > legend:after { display: none; }
+
+.MainForm .InputsWrapper fieldset > legend .Title { font-family: var(--HeadingFont); font-size: 2rem; }
+
+.MainForm fieldset .UploadedFiles li > input, .MainForm fieldset .UploadedFiles li > span { font-family: var(--MonoFont); color: var(--BlackColor); }
+
+.MainForm fieldset#Requirements ul .ui-sortable-helper, .MainForm fieldset .UploadedFiles .ui-sortable-helper { opacity: 1; border: 2px dashed var(--PurpleColor); border-radius: 5px; }
+
+.MainForm fieldset#Requirements ul .ui-sortable-placeholder, .MainForm fieldset .UploadedFiles .ui-sortable-placeholder { border: 2px dashed var(--GreenColor); border-radius: 5px; }
+
+.MainForm fieldset#SubmissionAuthors #AuthorGroupsList li .AuthorsList li span, .MainForm fieldset#SubmissionAuthors #AuthorGroupsList li .BulkAddAuthorInput small, #Recipients small, #Recipients textarea { font-size: var(--BodyFontSize); color: var(--BlackColor); }
+
+.AdvancedListSettingsModule > .Content .OrderAndSortControls fieldset legend { font-size: 1.5rem; padding: 0.3rem; position: relative; top: 15px; }
+
+.GeneratorProfileModule fieldset legend { position: relative; top: 15px; }
+
+#Category .UberSelect .OptionsWrapper .Options .Selected { color: var(--PurpleColor) !important; background: rgba(21, 21, 21, 0.8) !important; }
+
+.Editor .ViewModes .Wysiwyg .RichText { font-family: var(--GlobalFont); font-size: 1.5rem; }
+
+.Editor .ViewModes .Wysiwyg .RichText:hover, .Editor .ViewModes .Wysiwyg .RichText:focus { background: var(--FieldBGColor) !important; }
+
+.Editor .ViewModes .Source textarea { color: var(--GreenColor); font-family: var(--MonoFont); background: rgba(21, 21, 21, 0.7); width: 100%; }
+
+.Editor .ViewModes .Backup .RichText { box-shadow: inset 2px 2px 2px var(--BlackColor); background: rgba(21, 21, 21, 0.9); color: var(--GreyColor); border: 1px solid var(--BlackColor); border-radius: 5px; font-family: var(--MonoFont); padding: 1rem; width: 100%; }
+
+.Editor .ViewModeSwitchers span, .Editor .WysiwygPalettes > tab { font-family: var(--MonoFont); font-size: var(--RootFontSize); background: rgba(21, 21, 21, 0.7); border-radius: 3px 3px 0 0; }
+
+.Editor .WysiwygPalettes { background: 0; border-radius: 0; }
+
+.Editor .WysiwygPalettes > palette { background: var(--ListBGColor); border: 0; border-radius: 3px; }
+
+.Editor .WysiwygPalettes .UsernameInserter ul li:hover, .Editor .WysiwygPalettes .BitpitFileInserter ul li:hover, .Editor.DragInProgress .ViewModes .Wysiwyg, .Editor .ViewModes .Wysiwyg .RichText *:hover { outline: 1px dashed var(--PurpleColor); }
+
+.Editor.DragInProgress .ViewModes .Wysiwyg:after { font-size: var(--BodyFontSize); background: var(--PurpleColor); border-radius: 3px; color: var(--BlackColor); }
+
+#ProfileWysiwygEditor .InputWrapper #TemplateGrid row column .ui-sortable-helper, fieldset.CustomizableDefinitionList .InputWrapper .DefinitionListEntries ul .ui-sortable-helper, #NavOptionsNavModule pane #NavOptionsUiThemeList .ui-sortable-helper { border-color: var(--PurpleColor); }
+
+#ProfileWysiwygEditor .InputWrapper #TemplateGrid row column .ui-sortable-placeholder, fieldset.CustomizableDefinitionList .InputWrapper .DefinitionListEntries ul .ui-sortable-placeholder, #NavOptionsNavModule pane #NavOptionsUiThemeList .ui-sortable-placeholder { border-color: var(--GreenColor); }
+
+html { font-size: var(--RootFontSize); }
+
+body { font-size: var(--BodyFontSize); font-family: var(--GlobalFont); color: var(--WhiteColor); background: var(--NavsFooterColor); }
+
+#BodyWrapper { background: #dedede url("https://raw.githubusercontent.com/DanialZahid/CheckpointTheme/master/Assets/GridBG.png"); }
+
+#MainContent { background: rgba(0, 0, 0, 0.75); font-size: 1.5rem; }
+
+.Modal { background: rgba(21, 21, 21, 0.3); border: 0; border-radius: 5px; }
+
+#Breadcrumb { background: rgba(0, 0, 0, 0.5); padding: 0.5rem; border-radius: 3px; }
+
+a, .Linklike, .RichText .TableOfContents ul li, .MainForm fieldset#SubmissionAuthors #AuthorGroupsList li .AuthorsList li .AuthorIsMember, .RecipientGroups .RecipientGroup .MasterSwitch .CustomOptionsToggle { color: var(--BlueColor); text-shadow: var(--TextShadow); }
+
+a:hover, .Linklike:hover, .RichText .TableOfContents ul li:hover, .RecipientGroups .RecipientGroup .MasterSwitch .CustomOptionsToggle:hover, .AdvancedListSettingsModule > .Content .OrderAndSortControls fieldset legend:hover, #AlertsNavModule pane .Broadcasts > li .Messages li small a:hover, #ActivityNavModule pane .Broadcasts > li .Messages li small a:hover, #LicenseModule div.Content a:hover, #AttributesModule a:hover, #SectionAddFormSelectorModule .Content #SelectSectionStep .Column li a:hover div strong, #SectionAddFormSelectorModule .Content #SelectSectionStep .Column li a:hover div small, recordCell.Identifiers .DirectCategory a:hover { color: var(--PurpleColor); }
+
+#ManagersListModule ul li .SeniorPermitHolder { color: var(--RedColor); top: -5px; right: -5px; text-shadow: var(--TextShadow); }
+
+#ModInstallerPromoModule ul li a, #GamesListModule .Endnote a { background: rgba(21, 21, 21, 0.8); border-radius: 3px; padding: 1rem; }
+
+article > ul li, article > ul ul li, #AdminLinksModule #Links > li ul li { list-style-type: disc; }
+
+.PageModule > .Description { display: inline-block; padding: 0.5rem; color: var(--WhiteColor); }
+
+itemCount { font-family: var(--MonoFont); color: var(--GreenColor); }
+
+#UnlocksEditFormModule .MainForm .Submit, #MasterLog log { border-radius: 5px; border: 0; box-shadow: 0 0 10px var(--BlackColor); background: var(--FieldBGColor); padding: 1rem; }
+
+#MasterLog log { background: var(--BlackColor); }
+
+#MasterLog log span { border: 0; }
+
+#HistoryListModule .Content .Changes li .NewVersion .ValueWrapper, #HistoryListModule .Content .Changes li .PreviousVersion .ValueWrapper, #CodeViewerModule .CodeWithLineNumbers, #ArchiveTreesModule .Content > ul > li .ArchiveTreeWrapper, #ItemProfileModule .Content pre { border: 0; border-radius: 5px; padding: 0.5rem; font-family: var(--MonoFont); box-shadow: inset 2px 2px 2px var(--BlackColor); background: rgba(21, 21, 21, 0.9); }
+
+#CodeViewerModule .CodeWithLineNumbers .Code { border: 0; }
+
+.ScriptPreview { border-radius: 3px; }
+
+.PostsListModule .Posts > li .PostTools .PostUrlForm input { padding: 0.5rem; }
+
+.PostsListModule .Posts > li.IsExemplary { background: rgba(116, 190, 149, 0.05); border-radius: 5px; border: 1px solid var(--GreenColor); padding: 1rem; box-shadow: inset 0 0 10px var(--GreenColor); }
+
+.PostsListModule .Posts > li { transition: var(--TransitionAll); border-bottom: 2px solid rgba(169, 169, 169, 0.3); }
+
+#UnlocksEditFormModule fieldset { background: 0; color: var(--WhiteColor); }
+
+#DiscussionsListModule .Content .List li { background: rgba(21, 21, 21, 0.3); border-radius: 5px; }
+
+#DiscussionsListModule .Content .List li .Row1 { border-left: none; }
+
+#DiscussionsListModule .Content .List li .Row1 span { margin: 0 0.3rem; }
+
+#DiscussionsListModule .Content .List li .Row2 { background: rgba(21, 21, 21, 0.6); border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; }
+
+#DiscussionSectionsSummaryModule li { background: rgba(21, 21, 21, 0.2); padding: 0.5rem; border: 0; margin: 0.5rem 0; border-radius: 5px; }
+
+#DiscussionSectionsSummaryModule li.ActiveSection, #SectionMatchesModule ul li.Selected a, #SectionMatchesModule ul li:hover a, #GameMatchesModule ul li.Selected a, #GameMatchesModule ul li:hover a { background: rgba(21, 21, 21, 0.5); }
+
+#DiscussionSectionsSummaryModule li.ActiveSection a, #SectionMatchesModule ul li.Selected a span, #GameMatchesModule ul li.Selected a span { color: var(--WhiteColor); }
+
+#SearchResultsModule record recordCell.Attributes ul { background: rgba(21, 21, 21, 0.5); border: 0; border-radius: 3px; font-family: var(--MonoFont); font-size: var(--BodyFontSize); padding: 0.5rem; }
+
+#SectionExplanationsModule #SectionAreas > li .Sections li .AddLink { transition: .1s ease-in-out; }
+
+#SectionExplanationsModule #SectionAreas > li .Sections li itemCount { font-size: var(--BodyFontSize); }
+
+#SubmissionsListAdvancedListSettingsModule .SelectedGames:empty:after { color: var(--RedColor); padding: 0.5rem; font-size: var(--BodyFontSize); text-shadow: var(--TextShadow); }
+
+#SubmissionsListAdvancedListSettingsModule .RecentGames li { transition-duration: .1s; opacity: 0.7; }
+
+#FeaturesSliderModule { background: rgba(21, 21, 21, 0.5); }
+
+#FeaturesSliderModule .Slides .Slide, #FeaturesSliderModule .Slides .ExpandedSlide { border-radius: 5px; transition: opacity .1s ease-in-out; }
+
+#FeaturesSliderModule #SlideShortcuts .Slide.Selected { border-top-color: var(--YellowColor); }
+
+#FeaturesSliderModule .Slides .Slide .Info wrapper.Stats statWrapper, #FeaturesSliderModule .Slides .ExpandedSlide .Info wrapper.Stats statWrapper { border-radius: 3px; }
+
+.SoundPreview audio { width: 100%; }
+
+.AdvancedElement_Tabs li:hover, .AdvancedElement_Tabs li.Selected { border-bottom-color: var(--PurpleColor); color: var(--PurpleColor); background: rgba(218, 112, 214, 0.2); }
+
+.AdvancedElement_Tabs li { transition: var(--TransitionAll); }
+
+#TopGamesModule .Content .AdditionalLinks a { background: rgba(21, 21, 21, 0.8); padding: 1rem; border-radius: 3px; }
+
+#TopGamesModule .Content .GamesList li { font-size: var(--BodyFontSize); }
+
+#TopGamesModule .Content .GamesList li a span { color: var(--GreyColor); }
+
+#TopGamesModule .Content .GamesList li a .Banner { transition: var(--TransitionAll); box-shadow: 0 0 10px var(--BlackColor); }
+
+dt { font-size: var(--BodyFontSize); color: var(--GreyColor); }
+
+#SectionsModule .Info .CategoriesListWrapper { border: 0; box-shadow: inset 0 0 15px var(--BlackColor); border-radius: 5px; font-size: var(--BodyFontSize); }
+
+#SectionAddFormSelectorModule .Content #SelectSectionStep .Column li a div small { color: var(--WhiteColor); font-size: var(--BodyFontSize); }
+
+.Modal .CloseModal { color: var(--GreyColor); }
+
+.Modal .CloseModal:hover { color: var(--RedColor); text-shadow: var(--TextShadow); }
+
+.MainForm .InputsWrapper .InputHasError .InputHelp, .MainForm .InputsWrapper .InputHasError .InputError, .MainForm .InputsWrapper .InputHasError .InputWrapper { border-left-color: var(--RedColor); }
+
+code, pre { font-family: var(--MonoFont); color: var(--GreenColor); }
+
+#SubShopperModule #SubscriptionTiers li wrapper, #RipePromoImagesModule .Content .RichText img { border: 0; border-radius: 5px; }
+
+#SubShopperModule #SubscriptionTiers li.Selected wrapper { border-color: var(--BlueColor); color: var(--BlueColor); }
+
+#AllUnlocksList li strong, #AllUnlocksList li .PointsCost { font-size: var(--BodyFontSize) !important; }
+
+#SubShopperModule #CcPaymentForm #CardNumber { border-radius: 3px; }
+
+#CodeViewerModule controls column:last-of-type .DecreaseButton { margin-right: 0.5rem; }
+
+#RulesModule ol li { font-size: var(--BodyFontSize); color: var(--RedColor); text-shadow: var(--TextShadow); }
+
+#LicenseModule article li, #LicenseModule li { list-style-position: inside; }
+
+#LicenseModule article { border: 0; border-radius: 5px; padding: 1rem; box-shadow: inset 2px 2px 15px var(--BlackColor); }
+
+#AlternateFileSourcesModule li { padding: 1rem; border-radius: 5px; background: rgba(21, 21, 21, 0.7); letter-spacing: 1px; }
+
+#SectionsNavModule pane header > a { border-radius: 3px; }
+
+h1, h2, h3, h4, h5, h6, .PageModule > h3 { color: var(--HeadingColor); font-family: var(--HeadingFont); letter-spacing: 1px; text-shadow: var(--TextShadow); font-weight: 100; }
+
+h1 { font-size: 3rem; }
+
+h2 { font-size: 2.5rem; }
+
+h3, #ItemProfileModule .Content article h3, .PageModule > h3 { font-size: 2rem; }
+
+.PageModule > h3 { text-transform: uppercase; }
+
+.PageModule > h3::after { display: none; }
+
+h4, h5, h6 { font-size: 1.7rem; }
+
+#PrimaryNav h4, #SecondaryNav h4 { font-family: var(--HeadingFont); font-size: 3rem; text-transform: uppercase; letter-spacing: 1px; }
+
+#AuthorsAndRolesModule .Content dt.AuthorsGroup { font-size: var(--FontSizeMedium); font-family: var(--HeadingFont); letter-spacing: 1px; }
+
+#HeadlineWrapper overlay h1 { font-size: 4rem; }
+
+#HeadlineWrapper overlay h2 { font-size: 3rem; }
+
+#ScreenshotsModule .Content .Gallery a img, .PostsListModule .Posts > li article .Screenshots li img { box-shadow: 0 0 10px var(--BlackColor); border-radius: 5px; }
+
+#ScreenshotsModule .Content .Gallery a, .PostsListModule .Posts > li article .Screenshots li img, #PortfolioEntriesListModule recordCell.Preview bgImg, #ParticipantsListModule .Entries ul li img { transition: var(--TransitionAll); }
+
+#ScreenshotsModule .Content .Gallery a:first-child:hover { margin-right: 3rem; }
+
+#ScreenshotsModule .Content .Gallery a:hover, .PostsListModule .Posts > li article .Screenshots li img:hover, #ParticipantsListModule .Entries ul li img:hover { transform: var(--Scale); }
+
+#EmbeddablesModule img, #PortfolioEntriesListModule recordCell.Preview bgImg, #SearchResultsModule record recordCell.Preview img { border-radius: 5px; }
+
+.PostsListModule .Posts > li article .Screenshots li { margin: 1rem; }
+
+#ParticipantsListModule .Entries ul li img { border-radius: 3px; }
+
+.MainForm fieldset .UploadedFiles { background: 0 !important; border: 0 !important; }
+
+.MainForm fieldset .UploadedFiles li { background: 0; border-radius: 0; }
+
+.MainForm fieldset#SubmissionAuthors #AuthorGroupsList, .MainForm fieldset#SubmissionAuthors #AuthorGroupsList li .AuthorsList, fieldset.CustomizableDefinitionList .InputWrapper .DefinitionListEntries ul, #ProfileWysiwygEditor .InputWrapper #TemplateGrid row, #ProfileWysiwygEditor .InputWrapper #TemplateGrid row column placeholder, #ProfileWysiwygEditor .InputWrapper #AvailableModules, #EmbeddableImagesListModule li .Codes, .MainForm fieldset#Attributes .AvailableAttributes ul .AttributesGroup, .MainForm fieldset#Requirements ul, #NavOptionsNavModule pane #NavOptionsUiThemeList, .MainForm fieldset#AlternateFileSources ul, .MainForm fieldset#EmbeddedMedia ul, #Recipients .RecipientGroup > div ul, .Editor .WysiwygPalettes .ImageInserter ul, .Editor .WysiwygPalettes .UsernameInserter ul, .Editor .WysiwygPalettes .BitpitFileInserter ul { background: var(--ListBGColor); border: 0; border-radius: 5px; }
+
+.MainForm fieldset#SubmissionAuthors #AuthorGroupsList li, .MainForm fieldset#SubmissionAuthors #AuthorGroupsList li .AuthorsList li, fieldset.CustomizableDefinitionList .InputWrapper .DefinitionListEntries ul li, #ProfileWysiwygEditor .InputWrapper #TemplateGrid row column, #ProfileWysiwygEditor .InputWrapper #AvailableModules .TemplateModule, .MainForm fieldset#Attributes .SelectedAttributes ul li, .MainForm fieldset#Requirements ul li, #NavOptionsNavModule pane #NavOptionsUiThemeList li, .MainForm fieldset#AlternateFileSources ul li, .MainForm fieldset#EmbeddedMedia ul li, #Recipients .RecipientGroup > div ul li, .Editor .WysiwygPalettes .UsernameInserter ul li { background: var(--GreyColor); border-radius: 5px; }
+
+#ChangeLog ul { background: var(--ListBGColor) !important; border: 0 !important; border-radius: 5px !important; }
+
+#ChangeLog ul li { background: var(--GreyColor) !important; border-radius: 5px !important; }
+
+#Recipients .RecipientGroup > div ul li { opacity: 0.7; margin: 0.3rem 0.5rem; transition: var(--TransitionScale); font-size: var(--BodyFontSize); }
+
+#Recipients .RecipientGroup > div ul li:hover, #Recipients .RecipientGroup > div ul li.SelectedRecipient { background: var(--GreyColor); opacity: 1; }
+
+#Recipients .RecipientGroup > div ul li.SelectedRecipient { color: var(--BlackColor); transform: var(--Scale); margin-right: 0.7rem; }
+
+.MainForm fieldset#SubmissionAuthors #AuthorGroupsList li .AuthorsList li #UsernameSuggestions li, .MainForm fieldset#Category .UberSelect .OptionsWrapper .Options li { margin: 0; font-size: var(--BodyFontSize); padding: 0.3rem; border-radius: 0; text-shadow: none; }
+
+.MainForm fieldset#SubmissionAuthors #AuthorGroupsList li .AuthorsList li #UsernameSuggestions li:hover { background: var(--PurpleColor); color: var(--BlackColor); }
+
+.AdvancedElement_InputSuggestionsList li { font-family: var(--MonoFont); color: var(--BlackColor); background: var(--GreyColor); font-size: var(--BodyFontSize); padding: 0.3rem; border-radius: 0; }
+
+fieldset#Userid .AdvancedElement_InputSuggestionsList li:hover, .AdvancedElement_InputSuggestionsList li:hover { background: var(--PurpleColor); }
+
+#PrivateAccessNoticeModule p, .LogMessages, .simplePassMeter, p.NoRecordsFound, .MainForm .InputHelp .RedColor, .MainForm .InputHelp .BlueColor, .MainForm h4.GreenColor, .DefinitionListEntries h3, .Editor .WysiwygPalettes .ImageInserter ul:empty:after, .InputHelp .GreenColor, .SelectedRecipientsCount.PurpleColor, #Category .UberSelect .OptionsWrapper .Options li:hover, #Attributes .AvailableAttributes h5:hover, .Editor .WysiwygPalettes .ElementConfig.Active .GreenColor, .MainForm .InputsWrapper .InputHasError .InputError, .InputWrapper.RedColor, #WhereModule .Content p, #AddRatingFormModule li, #WithholdNoticeModule { text-shadow: var(--TextShadow); }
+
+#HistoryListModule .Content .Changes li .NewVersion > button, #HistoryListModule .Content .Changes li .PreviousVersion > button, #BuddiesNavModule pane article .ChannelContents > .Messages > .Message small, #ModlogListModule .Category small { font-size: var(--RootFontSize) !important; }
+
+#HistoryListModule .Content .Changes li .NewVersion .ValueWrapper, #HistoryListModule .Content .Changes li .PreviousVersion .ValueWrapper, .Editor .ViewModes .Source textarea, .Editor .ViewModes .Backup .RichText, .MainForm fieldset .UploadedFiles li > input, .MainForm fieldset .UploadedFiles li > span, #PrimaryNav #SubmissionsNavModule pane column itemCount, #SecondaryNav #SubmissionsNavModule pane column itemCount, #MessagesNavModule pane #BuddyChatPromoColumn, #BuddiesNavModule pane article .ChannelContents > .Messages > .Message .RichText, #Breadcrumb, #ChangeLog .BulkAdder small, #SectionsNavModule pane header small, #AuthorsAndRolesModule .Content dd.Author, #GamesNavModule pane article .TrendingGames li span, #SearchResultsModule record recordCell.Identifiers small, #MedalsModule .Content ul li div small, #ModlogListModule .Action blockquote, #RegistrationFormModule .Description small, #ProsAndConsModule li, .ReviewSummary .Pros, .ReviewSummary .Cons, #NavOptionsNavModule pane #NavOptionsUiThemeList li { font-size: var(--BodyFontSize) !important; }
+
+.RichText, #ActivityNavModule pane, #AlertsNavModule pane { font-size: 1.5rem; }
+
+#FilesModule .Content ul li .DownloadOptions a, #ScrubberFormModule .Submit button, records.Classic columnHeadings columnHeading { font-size: var(--FontSizeMedium) !important; }
+
+#HiddenColumnToggleButton matIcon { background: var(--BlackColor); transition: var(--TransitionAll); }
+
+#HiddenColumnToggleButton.Active matIcon { color: var(--BlueColor); border-left-color: var(--BlueColor); }
+
+#HiddenColumnToggleButton.Selected matIcon { color: var(--RedColor); border-left-color: var(--RedColor); }
+
+#ContentGrid.HiddenColumnMode.md row > column.md-h, #ContentGrid.HiddenColumnMode.xs row > column.xs-h { background: rgba(169, 169, 169, 0.8); color: var(--BlackColor); text-shadow: var(--TextShadow); }
+
+#ContentGrid.HiddenColumnMode.md row > column.md-h dd, #ContentGrid.HiddenColumnMode.md row > column.md-h dt, #ContentGrid.HiddenColumnMode.md row > column.md-h dl, #ContentGrid.HiddenColumnMode.md row > column.md-h p, #ContentGrid.HiddenColumnMode.xs row > column.xs-h dd, #ContentGrid.HiddenColumnMode.xs row > column.xs-h dt, #ContentGrid.HiddenColumnMode.xs row > column.xs-h dl, #ContentGrid.HiddenColumnMode.xs row > column.xs-h p { color: var(--BlackColor); text-shadow: none; }
+
+#ContentGrid.HiddenColumnMode.md row > column.md-h #AdditionalInfoModule itemCount, #ContentGrid.HiddenColumnMode.xs row > column.xs-h #AdditionalInfoModule itemCount { text-shadow: var(--TextShadow); }
+
+#ContentGrid.HiddenColumnMode.md row > column.md-h #GamesListModule record itemcount, #ContentGrid.HiddenColumnMode.xs row > column.xs-h #GamesListModule record itemcount { color: var(--GreenColor); }
+
+#PrimaryNav, #SecondaryNav, #PageFooter, body[data-_sHeaderStyle=Floating] #MainContentHeader.Fixed { background: var(--NavsFooterColor); }
+
+#SecondaryNav > wrapper module.Selected icon, #PrimaryNav module pane, #SecondaryNav module pane { background: #252525; }
+
+#SecondaryNav > wrapper module.HasUpdates icon, #PrimaryNav module.HasUpdates icon, #PrimaryNav module.HasUpdates widget { background: var(--GreenColor); }
+
+#GamesNavModule pane header .SubscriptionBenefitsNotice wrapper placeholder { border-color: var(--RedColor); }
+
+#SecondaryNav > wrapper module pane header:after, #SecondaryNav > wrapper module pane footer:after { display: none; }
+
+#AlertsNavModule pane .Broadcasts > li, #ActivityNavModule pane .Broadcasts > li { padding: 0.3rem 0; opacity: 0.7; border-top: 1px solid #151515; transition: var(--TransitionAll); margin-bottom: 0.1rem; }
+
+#AlertsNavModule pane .Broadcasts .Unseen .Broadcast, #ActivityNavModule pane .Broadcasts .Unseen .Broadcast { font-weight: 100; }
+
+#AlertsNavModule pane .Broadcasts .Unseen, #ActivityNavModule pane .Broadcasts .Unseen { opacity: 1; color: var(--WhiteColor); background: rgba(116, 190, 149, 0.3); }
+
+#AlertsNavModule pane .Broadcasts .Unseen:hover, #ActivityNavModule pane .Broadcasts .Unseen:hover { background: rgba(116, 190, 149, 0.3); }
+
+#AlertsNavModule pane .Broadcasts > li:hover, #ActivityNavModule pane .Broadcasts > li:hover, #ManageNavModule pane .Panes, #ManageNavModule pane .PaneTabs .Selected, #BuddiesNavModule pane article .ChannelContents > .Messages, #PersonalNavModule pane .Column1 .Identity, #PersonalNavModule pane column:nth-child(1) .Identity { background: #343434; }
+
+#PrimaryNav module pane article, #SecondaryNav module pane article { padding: 0.5rem; }
+
+#ManageNavModule pane .Panes, #ManageNavModule pane .PaneTabs .Selected, #PersonalNavModule pane .Column1 .Identity, #PersonalNavModule pane column:nth-child(1) .Identity, #AlertsNavModule pane .Broadcasts > li, #ActivityNavModule pane .Broadcasts > li, wrapper.Messages { border-radius: 3px; }
+
+#BuddiesNavModule pane article .ChannelContents > .Messages > .Message .RichText { background: rgba(0, 0, 0, 0.5); border-radius: 5px; padding: 0.5rem; }
+
+#BuddiesNavModule pane article .ChannelContents > .Messages > .SelfMessage .RichText { background: rgba(0, 0, 0, 0.5); }
+
+#SecondaryNav > wrapper module pane article { overflow-x: hidden; }
+
+#MessagesNavModule pane #BuddyChatPromoColumn { background: #343434; border-radius: 3px; padding: 0.5rem; }
+
+#RemindersNavModule pane column:first-of-type .StatusWrapper { background: #343434; border-radius: 3px; padding: 0.5rem; border: 0; font-size: 1.5rem; }
+
+#RemindersNavModule pane #MemoColumn span { border-radius: 3px; background: #343434; font-size: var(--BodyFontSize); }
+
+#SearchNavModule #SearchForm input[type=text] { font-size: var(--BodyFontSize); width: 200px; }
+
+#SearchNavModule #SearchForm button { margin-left: -3rem; transition-duration: .1s; }
+
+#SearchNavModule pane #SearchOptionsForm { border: 0; box-shadow: none; border-radius: 3px; padding: 0.3rem; font-size: var(--BodyFontSize); background: var(--ListBGColor); color: var(--BlackColor); }
+
+#SearchNavModule pane #PopularTermSuggestions li small, #SearchNavModule pane #BrowserHistorySuggestions li small { color: var(--GreyColor); font-size: var(--BodyFontSize); }
+
+#SubNavigator .DropdownMenuSubNavigator > li ul > li { background: #252525; }
+
+.PostsListModule .Posts > li article .PostStamps { transform: none !important; }
+
+.PostsListModule .Posts > li article .PostStamps li { border-left: 1rem solid transparent; background: rgba(21, 21, 21, 0.7); margin: 0.5rem; padding: 0.5rem; border-radius: 3px; }
+
+.PostsListModule .Posts > li article .PostStamps li[data-_sCategory=positive], #StampsLogListModule .Stamps li[data-_sCategory=positive] { color: var(--GreenColor); border-color: var(--GreenColor); }
+
+.PostsListModule .Posts > li article .PostStamps li[data-_sCategory=negative], #StampsLogListModule .Stamps li[data-_sCategory=negative] { color: var(--RedColor); border-color: var(--RedColor); }
+
+.PostsListModule .Posts > li article .PostStamps li[data-_sCategory=neutral], #StampsLogListModule .Stamps li[data-_sCategory=neutral] { color: var(--GreyColor); border-color: var(--GreyColor); }
+
+#Stamps .StampsForm .StampsGroup label { margin: 0.3rem 0.7rem !important; }
+
+#Stamps .StampsForm .StampsGroup label.Unlocked { background: rgba(21, 21, 21, 0.7); }
+
+label.Unlocked.ButtonLike.IconButton.Selected { background: var(--ButtonBGColor) !important; transform: var(--Scale); }
+
+stateLabel, .AdvancedListSettingsModule > .Content .Presets ul li, .AdvancedListSettingsModule > .Content .ActiveSortsAndFilters toggle, #SimpleSearchFormModule small .InlineBox, #ResponsibilitiesModule ul.Modgroups li { font-family: var(--GlobalFont); font-size: 1.2rem; padding: 0.7rem; border-radius: 3px; background: rgba(21, 21, 21, 0.7); user-select: none; letter-spacing: 1px; color: var(--WhiteColor); }
+
+#ResponsibilitiesModule ul.Modgroups li { border: 0; margin: 0.3rem; }
+
+.AdvancedListSettingsModule > .Content .Presets ul li:last-child { margin-bottom: auto; }
+
+.AdvancedListSettingsModule > .Content .Presets ul li { margin: 0.5rem; }
+
+.MainForm .InputsWrapper fieldset > legend stateLabel.RequiredInput, .MainForm .InputsWrapper fieldset > legend stateLabel.RecommendedInput, .MainForm .InputsWrapper fieldset > legend stateLabel.ErroneousInput, recordCell.Identifiers stateLabel, .PostsListModule .Posts > li .PostHeader .PostLabels stateLabel.IsSubmitter, #SubmitterModule .Content wrapper stateLabel, .PostsListModule .Posts > li .PostHeader .PostLabels stateLabel { font-size: 1.2rem; text-transform: uppercase; }
+
+#PendingSubmissionsListModule recordCell.Status stateLabel { display: inline-block; }
+
+.AvatarTooltip .Column .StatusLevels .HasClearanceLevel { color: var(--RedColor); background: rgba(0, 0, 0, 0.5); margin: 0.3rem; }
+
+.AvatarTooltip .Column .OnlineStatus stateLabel { background: rgba(169, 169, 169, 0.3); }
+
+stateLabel.IsNsfw { background: var(--RedColor); color: var(--BlackColor); }
+
+#CodeViewerModule controls .IsTruncated { font-size: 1.2rem; }
+
+record { transition: var(--TransitionAll); }
+
+records.Classic, table { width: 100%; }
+
+records.Classic record recordCell { padding: 0.5rem; border-bottom: 1px solid var(--BlackColor); }
+
+records.Classic, table { border-spacing: 0; border: 1px solid var(--BlackColor); background: rgba(110, 110, 110, 0.1); }
+
+records.Classic columnHeadings columnHeading, table thead th { color: var(--WhiteColor); font-family: var(--HeadingFont); text-transform: uppercase; background: #6e6e6e; padding: 0.5rem; }
+
+records.List record { border-bottom: 2px solid rgba(169, 169, 169, 0.3); }
+
+table thead th { border: 0; font-size: var(--FontSizeMedium); font-weight: 100; }
+
+records.Classic record:hover { background: rgba(52, 52, 52, 0.5); }
+
+records.Grid record { transition: var(--TransitionScale); }
+
+records.Grid record:hover { transform: var(--Scale); }
+
+records.Grid recordCell.Category { top: 0.5rem; right: 1rem; }
+
+recordcell.Moderator { text-align: center; }
+
+#CurrentExemplificationsListModule recordCell, #CurrentExemplificationPointsReceivedListModule recordCell, #RanksListModule recordCell, #CurrentSubscribersListModule recordCell, #ThankPointsReceivedListModule recordCell, #ThanksReceivedListModule recordCell, #ThankPointsSentListModule recordCell, #ThanksSentListModule recordCell, #DonationPointsSentListModule recordCell, #DonationsSentListModule recordCell, #DonationPointsReceivedListModule recordCell, #DonationsReceivedListModule recordCell, #CurrentSubmissionsListModule recordCell { border: 0; }
+
+#OverviewModule .Content .StatBlock dl dd.Type_table { border: 0; box-shadow: inset 3px 3px 10px var(--BlackColor); background: rgba(241, 242, 246, 0.1); border-radius: 5px; }
+
+#MembersListModule recordCell.Member { display: table-cell; }
+
+#PortfolioEntriesListModule record:hover { transform: none; }
+
+#ParticipantsListModule recordCell, #RanksListModule recordCell, #RedeemedKeysListModule recordCell, #AvailableKeysListModule recordCell { margin: 0 0.5rem; }
+
+#MembersListModule recordCell, #SubmissionsListModule recordcell { border-radius: 0; transform: none; border: 0; }
+
+recordCell.Preview { box-shadow: 1px 1px 10px var(--BlackColor); }
+
+body > .BananaTip { background: var(--BlackColor); border-radius: 3px; padding: 1rem; font-size: 1.5rem; }
+
+body > .BananaTip .Title { color: var(--GreyColor); font-family: var(--HeadingFont); font-size: var(--FontSizeMedium); text-transform: uppercase; letter-spacing: 1px; }
+
+body > .BananaTip .Title:after { display: none; }
+
+.AvatarTooltip .Column1, .AvatarTooltip .Column .Medals, .AvatarTooltip .Column .AffiliatedStudio, .AvatarTooltip .Column .StatusLevels, .AvatarTooltip .Column .OnlineStatus { border: none; }
+
+.BananaTip legend { position: relative; top: 15px; }
+
+:root { --RootFontSize: 10px; --BodyFontSize: 1.3rem; --FontSizeMedium: 2rem; --GlobalFont: "Source Sans Pro", sans-serif; --HeadingFont: "Squada One", cursive; --MonoFont: "Roboto Mono", monospace; --TextShadow: 1px 1px 1px var(--BlackColor); --TransitionScale: transform .1s ease-in-out; --TransitionAll: all .1s ease-in-out; --Scale: scale(1.1); --BlackColor: #151515; --BlueColor: #39a9db; --GreenColor: #74be95; --GreyColor: #a9a9a9; --OrangeColor: #f0932b; --PurpleColor: #da70d6; --RedColor: #ee5253; --WhiteColor: #f1f2f6; --YellowColor: #feca57; --HeadingColor: #dcdde1; --NavsFooterColor: #313131; --ButtonBGColor: #171717; --ButtonFGColor: #dfe6e9; --FieldBGColor: #d8d8d8; --ListBGColor: rgba(241, 242, 246, 0.5); --DefaultBlueColor: var(--BlueColor); --DefaultGreenColor: var(--GreenColor); --DefaultGreyColor: var(--GreyColor); --DefaultOrangeColor: var(--OrangeColor); --DefaultPurpleColor: var(--PurpleColor); --DefaultRedColor: var(--RedColor); --DefaultTextColor: var(--WhiteColor); --DefaultYellowColor: var(--YellowColor); --LinkColor: var(--BlueColor); --LinkHoverColor: var(--PurpleColor); --DefaultTextFontFamily: var(--GlobalFont); --DefaultTechnicalFontFamily: var(--MonoFont); --AdvancedElementTabsActiveTabFontColor: var(--PurpleColor); --AdvancedElementTabsActiveTabBorderColor: var(--PurpleColor); --SubNavigatorActiveTabBorderColor: var(--BlueColor); --SubNavigatorTabHoverBorderColor: var(--GreyColor); --SubNavigatorActiveTabFontColor: var(--BlueColor); --ModuleDescriptionFontSize: 1.5rem; }

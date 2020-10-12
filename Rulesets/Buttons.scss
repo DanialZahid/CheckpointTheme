@@ -1,0 +1,185 @@
+button,
+.ButtonLike
+{
+	color: var(--ButtonFGColor);
+	background: var(--ButtonBGColor);
+	transition: var(--TransitionScale);
+	border-radius: 3px;
+	padding: 0.5rem;
+	letter-spacing: 1px;
+	font-size: var(--BodyFontSize);
+}
+
+button.IconButton,
+.ButtonLike.IconButton
+{
+	padding: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+button:hover,
+button.Expanded,
+.ButtonLike:hover,
+.ButtonLike.Expanded
+button[disabled]:hover,
+button[disabled].Expanded,
+.ButtonLike[disabled]:hover,
+.ButtonLike[disabled].Expanded,
+button.Selected,
+.ButtonLike.Selected
+{
+	color: var(--ButtonFGColor) !important;
+	background: var(--ButtonBGColor) !important;
+	transform: var(--Scale) !important;
+}
+
+button.IconButton span,
+button.IconButton hoverAlt,
+.ButtonLike.IconButton span,
+.ButtonLike.IconButton hoverAlt
+{
+	padding: 0.3rem;
+	border: 0;
+}
+
+.DisabledModalLauncher
+{
+	transform: var(--Scale) !important;
+	opacity: 0.3;
+	cursor: not-allowed;
+}
+
+button.TogglePostRepliesButton.ExtendedContentButton.PreviouslyExpanded.Expanded, // Post replies toggle button
+button.HiddenPostToggleButton.ExtendedContentButton.Expanded // Hidden posts button
+{
+	opacity: 0.3;
+}
+
+// "Load More" Button
+
+.ExtendedContentButton
+{
+	background: var(--ButtonBGColor);
+	color: var(--ButtonFGColor);
+}
+
+// Download/Files Module Buttons
+
+#FilesModule .Content ul li .DownloadOptions a
+{
+	color: var(--BlackColor);
+	background: var(--GreenColor);
+	transition: var(--TransitionAll);
+	font-family: var(--HeadingFont);
+	text-transform: uppercase;
+	border-radius: 3px;
+	padding: 1rem;
+	margin: 0.3rem 1rem;
+	letter-spacing: 1px;
+	text-shadow: none;
+}
+
+#FilesModule .Content ul li .DownloadOptions a:hover
+{
+	transform: var(--Scale);
+	background: var(--GreenColor);
+}
+
+// Post Buttons
+
+.IconOnlyButton
+{
+	padding: 0.5rem !important;
+}
+
+.PostsListModule .Posts>li .PostTools>*
+{
+	margin-right: 0.5rem;
+}
+
+// Editor Buttons
+
+.Editor .Toolbars>div button
+{
+	margin: 0.2rem;
+}
+
+// Footer Buttons
+
+#PageFooter #ImportantLinks li a
+{
+	color: var(--ButtonFGColor);
+	background: var(--ButtonBGColor);
+	transition: var(--TransitionScale);
+	margin-bottom: 1rem;
+	border-radius: 3px;
+	padding: 1rem;
+	letter-spacing: 1px;
+}
+
+#PageFooter #ImportantLinks li a:hover
+{
+	background: var(--ButtonBGColor);
+	transform: var(--Scale);
+}
+
+// Other Buttons
+
+.AdvancedElement_Switch.Inline ul li
+{
+	border-radius: 3px !important;
+	opacity: 0.7;
+}
+
+.AdvancedElement_Switch.Inline ul li:hover
+{
+	opacity: 1;
+}
+
+.AdvancedElement_Switch li
+{
+	font-family: var(--MonoFont);
+	margin-right: 1.5rem;
+}
+
+.AdvancedElement_Switch.Inline ul li.ButtonLike.Selected
+{
+	background: var(--ButtonBGColor) !important;
+	transform: var(--Scale) !important;
+	opacity: 1;
+}
+
+// NavOptions pane save button
+
+#NavOptionsSaverButton,
+#NavOptionsSaverButton:hover,
+#UnlocksEditFormModule .IconButton,
+#UnlocksEditFormModule .IconButton:hover
+{
+	background: var(--BlueColor) !important;
+}
+
+#ScrubberFormModule .Submit button // Scrubber page button
+{
+	color: var(--RedColor) !important;
+	padding: 1rem;
+}
+
+// History Page Buttons
+
+#HistoryListModule .Content .Changes li .NewVersion>button,
+#HistoryListModule .Content .Changes li .PreviousVersion>button
+{
+	margin: 0 0.3rem;
+	opacity: 0.7;
+}
+
+#HistoryListModule button.Selected
+{
+	opacity: 1 !important;
+}
+
+.PostsListModule .Posts>li .PostTools .TopAnswerToggleButton // Increase right margin for the "Top Answer" button
+{
+	margin-left: 0.5rem;
+}

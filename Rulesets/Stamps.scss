@@ -1,0 +1,50 @@
+.PostsListModule .Posts>li article .PostStamps
+{
+	transform: none !important;
+}
+
+.PostsListModule .Posts>li article .PostStamps li
+{
+	border-left: 1rem solid transparent;
+	background: rgba(21, 21, 21, 0.7);
+	margin: 0.5rem;
+	padding: 0.5rem;
+	border-radius: 3px;
+}
+
+.PostsListModule .Posts>li article .PostStamps li[data-_sCategory=positive],
+#StampsLogListModule .Stamps li[data-_sCategory=positive]
+{
+	color: var(--GreenColor);
+	border-color: var(--GreenColor);
+}
+
+.PostsListModule .Posts>li article .PostStamps li[data-_sCategory=negative],
+#StampsLogListModule .Stamps li[data-_sCategory=negative]
+{
+	color: var(--RedColor);
+	border-color: var(--RedColor);
+}
+
+.PostsListModule .Posts>li article .PostStamps li[data-_sCategory=neutral],
+#StampsLogListModule .Stamps li[data-_sCategory=neutral]
+{
+	color: var(--GreyColor);
+	border-color: var(--GreyColor);
+}
+
+#Stamps .StampsForm .StampsGroup label
+{
+	margin: 0.3rem 0.7rem !important;
+}
+
+#Stamps .StampsForm .StampsGroup label.Unlocked
+{
+	background: rgba(21, 21, 21, 0.7);
+}
+
+label.Unlocked.ButtonLike.IconButton.Selected
+{
+	background: var(--ButtonBGColor) !important;
+	transform: var(--Scale);
+}

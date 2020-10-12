@@ -1,0 +1,64 @@
+#GamesListModule .Content>ul>li .Preview
+{
+	transition-duration: .1s;
+}
+
+#GamesListModule .Content .SteamInfoRollout .Screenshots a img
+{
+	border: 0;
+	box-shadow: 3px 3px 10px var(--BlackColor);
+	border-radius: 3px;
+	transition: var(--TransitionScale);
+}
+
+#GamesListModule .Content .SteamInfoRollout .Screenshots a img:hover
+{
+	transform: var(--Scale);
+}
+
+#RedeemedKeysListModule record,
+#AvailableKeysListModule record,
+#ParticipantsListModule record, // Contest - Participants section
+#RanksListModule record // Studio - Ranks section
+{
+	padding: 1rem;
+	margin: 0.5rem 0;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+#ItemProfileModule .BannerWrapper,
+#KeyInfoModule .BannerWrapper
+{
+	border: 0;
+
+	img
+	{
+		border-radius: 5px;
+	}
+}
+
+#GamesListModule .Content .SteamInfoRollout
+{
+	background: rgba(21, 21, 21, 0.3);
+	border: 0;
+	border-radius: 5px;
+	transition-duration: .1s;
+}
+
+#NewBexGamesModule li
+{
+	transition-duration: .1s;
+}
+
+#NewBexGamesModule li a,
+#BexPromoModule .Content>a
+{
+	box-shadow: 0 0 10px var(--BlackColor);
+	transition: var(--TransitionScale);
+}
+
+#NewBexGamesModule li a:hover,
+#BexPromoModule .Content>a:hover
+{
+	transform: var(--Scale);
+}

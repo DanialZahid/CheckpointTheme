@@ -1,0 +1,77 @@
+stateLabel,
+.AdvancedListSettingsModule>.Content .Presets ul li,
+.AdvancedListSettingsModule>.Content .ActiveSortsAndFilters toggle,
+#SimpleSearchFormModule small .InlineBox,
+#ResponsibilitiesModule ul.Modgroups li // Responsibilities module
+{
+	font-family: var(--GlobalFont);
+	font-size: 1.2rem;
+	padding: 0.7rem;
+	border-radius: 3px;
+	background: rgba(21, 21, 21, 0.7);
+	user-select: none;
+	letter-spacing: 1px;
+	color: var(--WhiteColor);
+}
+
+#ResponsibilitiesModule ul.Modgroups li
+{
+	border: 0;
+	margin: 0.3rem;
+}
+
+.AdvancedListSettingsModule>.Content .Presets ul li:last-child
+{
+	margin-bottom: auto;
+}
+
+.AdvancedListSettingsModule>.Content .Presets ul li
+{
+	margin: 0.5rem;
+}
+
+// Form State Labels
+
+.MainForm .InputsWrapper fieldset>legend stateLabel.RequiredInput,
+.MainForm .InputsWrapper fieldset>legend stateLabel.RecommendedInput,
+.MainForm .InputsWrapper fieldset>legend stateLabel.ErroneousInput,
+recordCell.Identifiers stateLabel,
+.PostsListModule .Posts>li .PostHeader .PostLabels stateLabel.IsSubmitter,
+#SubmitterModule .Content wrapper stateLabel,
+.PostsListModule .Posts>li .PostHeader .PostLabels stateLabel
+{
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+// Pending Submissions State Labels
+
+#PendingSubmissionsListModule recordCell.Status stateLabel
+{
+	display: inline-block;
+}
+
+// Avatar Tooltip State Labels
+
+.AvatarTooltip .Column .StatusLevels .HasClearanceLevel
+{
+	color: var(--RedColor);
+	background: rgba(0, 0, 0, 0.5);
+	margin: 0.3rem;
+}
+
+.AvatarTooltip .Column .OnlineStatus stateLabel
+{
+	background: rgba(169, 169, 169, 0.3);
+}
+
+stateLabel.IsNsfw
+{
+	background: var(--RedColor);
+	color: var(--BlackColor);
+}
+
+#CodeViewerModule controls .IsTruncated
+{
+	font-size: 1.2rem;
+}

@@ -1,0 +1,36 @@
+body>.BananaTip
+{
+	background: var(--BlackColor);
+	border-radius: 3px;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+body>.BananaTip .Title
+{
+	color: var(--GreyColor);
+	font-family: var(--HeadingFont);
+	font-size: var(--FontSizeMedium);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+body>.BananaTip .Title:after
+{
+	display: none;
+}
+
+.AvatarTooltip .Column1,
+.AvatarTooltip .Column .Medals,
+.AvatarTooltip .Column .AffiliatedStudio,
+.AvatarTooltip .Column .StatusLevels,
+.AvatarTooltip .Column .OnlineStatus
+{
+	border: none;
+}
+
+.BananaTip legend // Fix title position for the Bitpit section tooltip
+{
+	position: relative;
+	top: 15px;
+}
