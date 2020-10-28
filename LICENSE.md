@@ -1,4 +1,4 @@
-# LICENSE
+# License
 
 You are allowed to install this content.
 

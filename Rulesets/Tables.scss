@@ -27,7 +27,6 @@ table thead th
 {
 	color: var(--WhiteColor);
 	font-family: var(--HeadingFont);
-	text-transform: uppercase;
 	background: #6e6e6e;
 	padding: 0.5rem;
 }
@@ -46,7 +45,7 @@ table thead th
 
 records.Classic record:hover
 {
-	background: rgba(52, 52, 52, 0.5);
+	background: #343434;
 }
 
 records.Grid record
@@ -129,7 +128,23 @@ recordcell.Moderator
 	border: 0;
 }
 
-recordCell.Preview // Add box shadow to record previews
+// Threads Records
+
+.ThreadPreview blockquote
 {
-	box-shadow: 1px 1px 10px var(--BlackColor);
+	margin-bottom: auto;
+}
+
+// Add Box Shadow To Select Records
+
+.QuestionIndexModule,
+.ThreadIndexModule,
+.ScriptIndexModule,
+.IdeaIndexModule,
+.BlogIndexModule
+{
+	recordCell.Preview
+	{
+		box-shadow: 1px 1px 10px var(--BlackColor);
+	}
 }

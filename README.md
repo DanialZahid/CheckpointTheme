@@ -1,4 +1,4 @@
-# README
+# Read Me
 
 ## Description
 
@@ -8,8 +8,9 @@ Checkpoint Theme changes the site-wide UI similar to [Checkpoint website](https:
 ## Details
 
 Date released: **2020-10-16**\
+Last updated: **2020-10-29**\
 Development status: **Maintained**\
-Current version: **1.0.0**
+Current version: **1.0.1**
 
 [On GitHub](https://github.com/DanialZahid/CheckpointTheme)\
 [On GameBanana](https://gamebanana.com/scripts/10712)
@@ -22,7 +23,19 @@ Current version: **1.0.0**
 
 [Complete authors list](AUTHORS.md)
 
-- **Danial Zahid** [Code]
+**Danial Zahid** [Code]
+
+## Change Log
+
+[Complete change log](CHANGELOG.md)
+
+### Version 1.0.1 [2020-10-29]
+
+- Due to inconsistency issues, removed box shadow from all record previews, and instead, added to select sections ones (Blogs, Ideas, Questions, Scripts, Threads).
+- Changed the heading font from Squada One to Norwester.
+- Increased the body font size from 13px to 14px.
+- Increased the font size of several small text elements to 14px.
+- Several other changes.
 
 ## License
 

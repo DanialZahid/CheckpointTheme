@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro&family=Squada+One&display=swap'); // Import Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro&display=swap'); // Import Google fonts
+
+@font-face
+{
+	font-family: "Norwester";
+	src: url("https://raw.githubusercontent.com/DanialZahid/CheckpointTheme/master/Assets/Norwester.otf") format("opentype");
+}
 
 html
 {
@@ -445,4 +451,19 @@ pre
 #SectionsNavModule pane header>a
 {
 	border-radius: 3px;
+}
+
+// Sign Up No Ads Promo
+
+#SignupNoAdsPromo
+{
+	font-size: var(--BodyFontSize);
+	padding: .5rem;
+	border-radius: 3px;
+}
+
+#CoreStatsModule ul li
+{
+	border-radius: 3px;
+	padding: 1rem;
 }

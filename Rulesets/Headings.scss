@@ -11,6 +11,7 @@ h6,
 	letter-spacing: 1px;
 	text-shadow: var(--TextShadow);
 	font-weight: 100;
+	text-transform: lowercase;
 }
 
 h1
@@ -30,11 +31,6 @@ h3,
 	font-size: 2rem;
 }
 
-.PageModule > h3
-{
-	text-transform: uppercase;
-}
-
 .PageModule > h3::after
 {
 	display: none;
@@ -50,7 +46,6 @@ h4, h5, h6
 {
 	font-family: var(--HeadingFont);
 	font-size: 3rem;
-	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
