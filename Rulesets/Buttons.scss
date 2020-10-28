@@ -71,7 +71,7 @@ button.HiddenPostToggleButton.ExtendedContentButton.Expanded // Hidden posts but
 	background: var(--GreenColor);
 	transition: var(--TransitionAll);
 	font-family: var(--HeadingFont);
-	text-transform: uppercase;
+	text-transform: lowercase;
 	border-radius: 3px;
 	padding: 1rem;
 	margin: 0.3rem 1rem;
@@ -182,4 +182,14 @@ button.HiddenPostToggleButton.ExtendedContentButton.Expanded // Hidden posts but
 .PostsListModule .Posts>li .PostTools .TopAnswerToggleButton // Increase right margin for the "Top Answer" button
 {
 	margin-left: 0.5rem;
+}
+
+// Login Button
+
+.MemberLoginArea .IconButton
+{
+	background: linear-gradient(45deg, var(--BlueColor), var(--PurpleColor));
+	text-transform: lowercase;
+	font-family: var(--HeadingFont);
+	font-size: var(--FontSizeMedium);
 }

@@ -18,7 +18,8 @@ p.NoRecordsFound,
 .InputWrapper.RedColor,
 #WhereModule .Content p,
 #AddRatingFormModule li,
-#WithholdNoticeModule
+#WithholdNoticeModule,
+#NavOptionsNavModule pane #NavOptionsUiThemeList:empty:after
 {
 	text-shadow: var(--TextShadow);
 }
@@ -57,7 +58,14 @@ p.NoRecordsFound,
 #ProsAndConsModule li,
 .ReviewSummary .Pros,
 .ReviewSummary .Cons,
-#NavOptionsNavModule pane #NavOptionsUiThemeList li
+#NavOptionsNavModule pane #NavOptionsUiThemeList li,
+#NavOptionsNavModule pane .GuestNotice,
+#LoginNavModule pane overlay ul li,
+#LoginNavModule pane overlay .SignupIntro small,
+#NavOptionsNavModule pane wrapper>span,
+#NavOptionsNavModule pane a,
+#BananaNavModule pane article small,
+#CoreStatsModule ul small
 {
 	font-size: var(--BodyFontSize) !important;
 }

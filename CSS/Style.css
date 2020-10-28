@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro&family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro&display=swap");
 .Avatar, .Avatar img, #FeaturesSliderModule img, #CheckpointCreatorPromoModule .Content img, .Avatar.IsRipeSupporter, .Avatar.HasClearanceLevel, .Trasher img, .Ownership img, #SearchResultsModule record recordCell.Submitter img, #SubmissionsListModule .Managers li img { border-radius: 50%; transition: var(--TransitionScale); }
 
 #SearchResultsModule record recordCell.Submitter img { width: auto; }
@@ -49,7 +49,7 @@ button.TogglePostRepliesButton.ExtendedContentButton.PreviouslyExpanded.Expanded
 
 .ExtendedContentButton { background: var(--ButtonBGColor); color: var(--ButtonFGColor); }
 
-#FilesModule .Content ul li .DownloadOptions a { color: var(--BlackColor); background: var(--GreenColor); transition: var(--TransitionAll); font-family: var(--HeadingFont); text-transform: uppercase; border-radius: 3px; padding: 1rem; margin: 0.3rem 1rem; letter-spacing: 1px; text-shadow: none; }
+#FilesModule .Content ul li .DownloadOptions a { color: var(--BlackColor); background: var(--GreenColor); transition: var(--TransitionAll); font-family: var(--HeadingFont); text-transform: lowercase; border-radius: 3px; padding: 1rem; margin: 0.3rem 1rem; letter-spacing: 1px; text-shadow: none; }
 
 #FilesModule .Content ul li .DownloadOptions a:hover { transform: var(--Scale); background: var(--GreenColor); }
 
@@ -80,6 +80,8 @@ button.TogglePostRepliesButton.ExtendedContentButton.PreviouslyExpanded.Expanded
 #HistoryListModule button.Selected { opacity: 1 !important; }
 
 .PostsListModule .Posts > li .PostTools .TopAnswerToggleButton { margin-left: 0.5rem; }
+
+.MemberLoginArea .IconButton { background: linear-gradient(45deg, var(--BlueColor), var(--PurpleColor)); text-transform: lowercase; font-family: var(--HeadingFont); font-size: var(--FontSizeMedium); }
 
 .GreenColor, #OverviewModule .Content .StatBlock dl dd .ChangeResult_positive, .meter4, stateLabel.IdeaResolution_addressed, stateLabel.QuestionState_Solved, stateLabel[data-_sThreadState="Done"], stateLabel.ContestState_Running, stateLabel[data-_sTutorialDifficulty="Beginner"], .AvatarTooltip .Column .OnlineStatus stateLabel.Online, .MainForm .InputsWrapper fieldset > legend stateLabel.RecommendedInput, stateLabel[data-_sUpdateType="Adjustment"], stateLabel[data-_sUpdateType="Amendment"], #PrimaryNav #SubmissionsNavModule pane column itemCount, #SecondaryNav #SubmissionsNavModule pane column itemCount, .PostsListModule .Posts > li .PostHeader .PostLabels stateLabel.IsExemplary, .Editor .ViewModeSwitchers span.Source, #ModlogListModule .Action.Severity_positive span, #SectionMatchesModule ul li a itemCount, #GameMatchesModule ul li a itemCount, #PointsModule .ClimbedRank, #SectionExplanationsModule #SectionAreas > li .Sections li itemCount.RecentlyAddedItems, .QuestionPreview blockquote.Solved, .MainForm .InputsWrapper .CategoryTabs li small .RecommendedInputsCount, #Member_Submissions_Todo #SubmissionsListModule .Identifiers.Status_Complete > span, #TodosModule .Identifiers.Status_Complete > span, #BexPromoModule .Content > a .PointCostOverlay, #GamesListModule .Content > ul > li .Preview .PointCost, #AvailableKeysListModule h3, #AvailableKeysListListToolbarModule button span, #KeyInfoModule .BannerWrapper .PointCost, #SubNavigator li itemCount, stateLabel.RequestResolution_delivered, #PurchasesListModule li .GameBanner .PointsCost, #NewBexGamesModule li a overlay.PointsCost, #BuddiesListModule recordCell.Status stateLabel.Online, stateLabel.PermitLevel_junior, #PendingSubmissionsListModule recordCell.Status stateLabel.Status_0 { color: var(--GreenColor); }
 
@@ -172,6 +174,8 @@ select:disabled, .SelectLike:disabled { cursor: not-allowed; }
 #ProfileWysiwygEditor .InputWrapper #TemplateGrid row column .ui-sortable-helper, fieldset.CustomizableDefinitionList .InputWrapper .DefinitionListEntries ul .ui-sortable-helper, #NavOptionsNavModule pane #NavOptionsUiThemeList .ui-sortable-helper { border-color: var(--PurpleColor); }
 
 #ProfileWysiwygEditor .InputWrapper #TemplateGrid row column .ui-sortable-placeholder, fieldset.CustomizableDefinitionList .InputWrapper .DefinitionListEntries ul .ui-sortable-placeholder, #NavOptionsNavModule pane #NavOptionsUiThemeList .ui-sortable-placeholder { border-color: var(--GreenColor); }
+
+@font-face { font-family: "Norwester"; src: url("https://raw.githubusercontent.com/DanialZahid/CheckpointTheme/master/Assets/Norwester.otf") format("opentype"); }
 
 html { font-size: var(--RootFontSize); }
 
@@ -299,7 +303,11 @@ code, pre { font-family: var(--MonoFont); color: var(--GreenColor); }
 
 #SectionsNavModule pane header > a { border-radius: 3px; }
 
-h1, h2, h3, h4, h5, h6, .PageModule > h3 { color: var(--HeadingColor); font-family: var(--HeadingFont); letter-spacing: 1px; text-shadow: var(--TextShadow); font-weight: 100; }
+#SignupNoAdsPromo { font-size: var(--BodyFontSize); padding: .5rem; border-radius: 3px; }
+
+#CoreStatsModule ul li { border-radius: 3px; padding: 1rem; }
+
+h1, h2, h3, h4, h5, h6, .PageModule > h3 { color: var(--HeadingColor); font-family: var(--HeadingFont); letter-spacing: 1px; text-shadow: var(--TextShadow); font-weight: 100; text-transform: lowercase; }
 
 h1 { font-size: 3rem; }
 
@@ -307,13 +315,11 @@ h2 { font-size: 2.5rem; }
 
 h3, #ItemProfileModule .Content article h3, .PageModule > h3 { font-size: 2rem; }
 
-.PageModule > h3 { text-transform: uppercase; }
-
 .PageModule > h3::after { display: none; }
 
 h4, h5, h6 { font-size: 1.7rem; }
 
-#PrimaryNav h4, #SecondaryNav h4 { font-family: var(--HeadingFont); font-size: 3rem; text-transform: uppercase; letter-spacing: 1px; }
+#PrimaryNav h4, #SecondaryNav h4 { font-family: var(--HeadingFont); font-size: 3rem; letter-spacing: 1px; }
 
 #AuthorsAndRolesModule .Content dt.AuthorsGroup { font-size: var(--FontSizeMedium); font-family: var(--HeadingFont); letter-spacing: 1px; }
 
@@ -361,11 +367,11 @@ h4, h5, h6 { font-size: 1.7rem; }
 
 fieldset#Userid .AdvancedElement_InputSuggestionsList li:hover, .AdvancedElement_InputSuggestionsList li:hover { background: var(--PurpleColor); }
 
-#PrivateAccessNoticeModule p, .LogMessages, .simplePassMeter, p.NoRecordsFound, .MainForm .InputHelp .RedColor, .MainForm .InputHelp .BlueColor, .MainForm h4.GreenColor, .DefinitionListEntries h3, .Editor .WysiwygPalettes .ImageInserter ul:empty:after, .InputHelp .GreenColor, .SelectedRecipientsCount.PurpleColor, #Category .UberSelect .OptionsWrapper .Options li:hover, #Attributes .AvailableAttributes h5:hover, .Editor .WysiwygPalettes .ElementConfig.Active .GreenColor, .MainForm .InputsWrapper .InputHasError .InputError, .InputWrapper.RedColor, #WhereModule .Content p, #AddRatingFormModule li, #WithholdNoticeModule { text-shadow: var(--TextShadow); }
+#PrivateAccessNoticeModule p, .LogMessages, .simplePassMeter, p.NoRecordsFound, .MainForm .InputHelp .RedColor, .MainForm .InputHelp .BlueColor, .MainForm h4.GreenColor, .DefinitionListEntries h3, .Editor .WysiwygPalettes .ImageInserter ul:empty:after, .InputHelp .GreenColor, .SelectedRecipientsCount.PurpleColor, #Category .UberSelect .OptionsWrapper .Options li:hover, #Attributes .AvailableAttributes h5:hover, .Editor .WysiwygPalettes .ElementConfig.Active .GreenColor, .MainForm .InputsWrapper .InputHasError .InputError, .InputWrapper.RedColor, #WhereModule .Content p, #AddRatingFormModule li, #WithholdNoticeModule, #NavOptionsNavModule pane #NavOptionsUiThemeList:empty:after { text-shadow: var(--TextShadow); }
 
 #HistoryListModule .Content .Changes li .NewVersion > button, #HistoryListModule .Content .Changes li .PreviousVersion > button, #BuddiesNavModule pane article .ChannelContents > .Messages > .Message small, #ModlogListModule .Category small { font-size: var(--RootFontSize) !important; }
 
-#HistoryListModule .Content .Changes li .NewVersion .ValueWrapper, #HistoryListModule .Content .Changes li .PreviousVersion .ValueWrapper, .Editor .ViewModes .Source textarea, .Editor .ViewModes .Backup .RichText, .MainForm fieldset .UploadedFiles li > input, .MainForm fieldset .UploadedFiles li > span, #PrimaryNav #SubmissionsNavModule pane column itemCount, #SecondaryNav #SubmissionsNavModule pane column itemCount, #MessagesNavModule pane #BuddyChatPromoColumn, #BuddiesNavModule pane article .ChannelContents > .Messages > .Message .RichText, #Breadcrumb, #ChangeLog .BulkAdder small, #SectionsNavModule pane header small, #AuthorsAndRolesModule .Content dd.Author, #GamesNavModule pane article .TrendingGames li span, #SearchResultsModule record recordCell.Identifiers small, #MedalsModule .Content ul li div small, #ModlogListModule .Action blockquote, #RegistrationFormModule .Description small, #ProsAndConsModule li, .ReviewSummary .Pros, .ReviewSummary .Cons, #NavOptionsNavModule pane #NavOptionsUiThemeList li { font-size: var(--BodyFontSize) !important; }
+#HistoryListModule .Content .Changes li .NewVersion .ValueWrapper, #HistoryListModule .Content .Changes li .PreviousVersion .ValueWrapper, .Editor .ViewModes .Source textarea, .Editor .ViewModes .Backup .RichText, .MainForm fieldset .UploadedFiles li > input, .MainForm fieldset .UploadedFiles li > span, #PrimaryNav #SubmissionsNavModule pane column itemCount, #SecondaryNav #SubmissionsNavModule pane column itemCount, #MessagesNavModule pane #BuddyChatPromoColumn, #BuddiesNavModule pane article .ChannelContents > .Messages > .Message .RichText, #Breadcrumb, #ChangeLog .BulkAdder small, #SectionsNavModule pane header small, #AuthorsAndRolesModule .Content dd.Author, #GamesNavModule pane article .TrendingGames li span, #SearchResultsModule record recordCell.Identifiers small, #MedalsModule .Content ul li div small, #ModlogListModule .Action blockquote, #RegistrationFormModule .Description small, #ProsAndConsModule li, .ReviewSummary .Pros, .ReviewSummary .Cons, #NavOptionsNavModule pane #NavOptionsUiThemeList li, #NavOptionsNavModule pane .GuestNotice, #LoginNavModule pane overlay ul li, #LoginNavModule pane overlay .SignupIntro small, #NavOptionsNavModule pane wrapper > span, #NavOptionsNavModule pane a, #BananaNavModule pane article small, #CoreStatsModule ul small { font-size: var(--BodyFontSize) !important; }
 
 .RichText, #ActivityNavModule pane, #AlertsNavModule pane { font-size: 1.5rem; }
 
@@ -377,13 +383,15 @@ fieldset#Userid .AdvancedElement_InputSuggestionsList li:hover, .AdvancedElement
 
 #HiddenColumnToggleButton.Selected matIcon { color: var(--RedColor); border-left-color: var(--RedColor); }
 
-#ContentGrid.HiddenColumnMode.md row > column.md-h, #ContentGrid.HiddenColumnMode.xs row > column.xs-h { background: rgba(169, 169, 169, 0.8); color: var(--BlackColor); text-shadow: var(--TextShadow); }
+#ContentGrid.HiddenColumnMode.md row > column.md-h, #ContentGrid.HiddenColumnMode.xs row > column.xs-h { background: rgba(169, 169, 169, 0.8); color: var(--BlackColor); }
 
 #ContentGrid.HiddenColumnMode.md row > column.md-h dd, #ContentGrid.HiddenColumnMode.md row > column.md-h dt, #ContentGrid.HiddenColumnMode.md row > column.md-h dl, #ContentGrid.HiddenColumnMode.md row > column.md-h p, #ContentGrid.HiddenColumnMode.xs row > column.xs-h dd, #ContentGrid.HiddenColumnMode.xs row > column.xs-h dt, #ContentGrid.HiddenColumnMode.xs row > column.xs-h dl, #ContentGrid.HiddenColumnMode.xs row > column.xs-h p { color: var(--BlackColor); text-shadow: none; }
 
 #ContentGrid.HiddenColumnMode.md row > column.md-h #AdditionalInfoModule itemCount, #ContentGrid.HiddenColumnMode.xs row > column.xs-h #AdditionalInfoModule itemCount { text-shadow: var(--TextShadow); }
 
 #ContentGrid.HiddenColumnMode.md row > column.md-h #GamesListModule record itemcount, #ContentGrid.HiddenColumnMode.xs row > column.xs-h #GamesListModule record itemcount { color: var(--GreenColor); }
+
+#ContentGrid.HiddenColumnMode.md row > column.md-h itemCount, #ContentGrid.HiddenColumnMode.xs row > column.xs-h itemCount { text-shadow: var(--TextShadow); }
 
 #PrimaryNav, #SecondaryNav, #PageFooter, body[data-_sHeaderStyle=Floating] #MainContentHeader.Fixed { background: var(--NavsFooterColor); }
 
@@ -475,13 +483,13 @@ records.Classic record recordCell { padding: 0.5rem; border-bottom: 1px solid va
 
 records.Classic, table { border-spacing: 0; border: 1px solid var(--BlackColor); background: rgba(110, 110, 110, 0.1); }
 
-records.Classic columnHeadings columnHeading, table thead th { color: var(--WhiteColor); font-family: var(--HeadingFont); text-transform: uppercase; background: #6e6e6e; padding: 0.5rem; }
+records.Classic columnHeadings columnHeading, table thead th { color: var(--WhiteColor); font-family: var(--HeadingFont); background: #6e6e6e; padding: 0.5rem; }
 
 records.List record { border-bottom: 2px solid rgba(169, 169, 169, 0.3); }
 
 table thead th { border: 0; font-size: var(--FontSizeMedium); font-weight: 100; }
 
-records.Classic record:hover { background: rgba(52, 52, 52, 0.5); }
+records.Classic record:hover { background: #343434; }
 
 records.Grid record { transition: var(--TransitionScale); }
 
@@ -503,11 +511,13 @@ recordcell.Moderator { text-align: center; }
 
 #MembersListModule recordCell, #SubmissionsListModule recordcell { border-radius: 0; transform: none; border: 0; }
 
-recordCell.Preview { box-shadow: 1px 1px 10px var(--BlackColor); }
+.ThreadPreview blockquote { margin-bottom: auto; }
+
+.QuestionIndexModule recordCell.Preview, .ThreadIndexModule recordCell.Preview, .ScriptIndexModule recordCell.Preview, .IdeaIndexModule recordCell.Preview, .BlogIndexModule recordCell.Preview { box-shadow: 1px 1px 10px var(--BlackColor); }
 
 body > .BananaTip { background: var(--BlackColor); border-radius: 3px; padding: 1rem; font-size: 1.5rem; }
 
-body > .BananaTip .Title { color: var(--GreyColor); font-family: var(--HeadingFont); font-size: var(--FontSizeMedium); text-transform: uppercase; letter-spacing: 1px; }
+body > .BananaTip .Title { color: var(--GreyColor); font-family: var(--HeadingFont); font-size: var(--FontSizeMedium); text-transform: lowercase; letter-spacing: 1px; }
 
 body > .BananaTip .Title:after { display: none; }
 
@@ -515,4 +525,4 @@ body > .BananaTip .Title:after { display: none; }
 
 .BananaTip legend { position: relative; top: 15px; }
 
-:root { --RootFontSize: 10px; --BodyFontSize: 1.3rem; --FontSizeMedium: 2rem; --GlobalFont: "Source Sans Pro", sans-serif; --HeadingFont: "Squada One", cursive; --MonoFont: "Roboto Mono", monospace; --TextShadow: 1px 1px 1px var(--BlackColor); --TransitionScale: transform .1s ease-in-out; --TransitionAll: all .1s ease-in-out; --Scale: scale(1.1); --BlackColor: #151515; --BlueColor: #39a9db; --GreenColor: #74be95; --GreyColor: #a9a9a9; --OrangeColor: #f0932b; --PurpleColor: #da70d6; --RedColor: #ee5253; --WhiteColor: #f1f2f6; --YellowColor: #feca57; --HeadingColor: #dcdde1; --NavsFooterColor: #313131; --ButtonBGColor: #171717; --ButtonFGColor: #dfe6e9; --FieldBGColor: #d8d8d8; --ListBGColor: rgba(241, 242, 246, 0.5); --DefaultBlueColor: var(--BlueColor); --DefaultGreenColor: var(--GreenColor); --DefaultGreyColor: var(--GreyColor); --DefaultOrangeColor: var(--OrangeColor); --DefaultPurpleColor: var(--PurpleColor); --DefaultRedColor: var(--RedColor); --DefaultTextColor: var(--WhiteColor); --DefaultYellowColor: var(--YellowColor); --LinkColor: var(--BlueColor); --LinkHoverColor: var(--PurpleColor); --DefaultTextFontFamily: var(--GlobalFont); --DefaultTechnicalFontFamily: var(--MonoFont); --AdvancedElementTabsActiveTabFontColor: var(--PurpleColor); --AdvancedElementTabsActiveTabBorderColor: var(--PurpleColor); --SubNavigatorActiveTabBorderColor: var(--BlueColor); --SubNavigatorTabHoverBorderColor: var(--GreyColor); --SubNavigatorActiveTabFontColor: var(--BlueColor); --ModuleDescriptionFontSize: 1.5rem; }
+:root { --RootFontSize: 10px; --BodyFontSize: 1.4rem; --FontSizeMedium: 2rem; --GlobalFont: "Source Sans Pro", sans-serif; --HeadingFont: "Norwester", cursive; --MonoFont: "Roboto Mono", monospace; --TextShadow: 1px 1px 1px var(--BlackColor); --TransitionScale: transform .1s ease-in-out; --TransitionAll: all .1s ease-in-out; --Scale: scale(1.1); --BlackColor: #151515; --BlueColor: #39a9db; --GreenColor: #74be95; --GreyColor: #a9a9a9; --OrangeColor: #f0932b; --PurpleColor: #da70d6; --RedColor: #ee5253; --WhiteColor: #f1f2f6; --YellowColor: #feca57; --HeadingColor: #dcdde1; --NavsFooterColor: #313131; --ButtonBGColor: #171717; --ButtonFGColor: #dfe6e9; --FieldBGColor: #d8d8d8; --ListBGColor: rgba(241, 242, 246, 0.5); --DefaultBlueColor: var(--BlueColor); --DefaultGreenColor: var(--GreenColor); --DefaultGreyColor: var(--GreyColor); --DefaultOrangeColor: var(--OrangeColor); --DefaultPurpleColor: var(--PurpleColor); --DefaultRedColor: var(--RedColor); --DefaultTextColor: var(--WhiteColor); --DefaultYellowColor: var(--YellowColor); --LinkColor: var(--BlueColor); --LinkHoverColor: var(--PurpleColor); --DefaultTextFontFamily: var(--GlobalFont); --DefaultTechnicalFontFamily: var(--MonoFont); --AdvancedElementTabsActiveTabFontColor: var(--PurpleColor); --AdvancedElementTabsActiveTabBorderColor: var(--PurpleColor); --SubNavigatorActiveTabBorderColor: var(--BlueColor); --SubNavigatorTabHoverBorderColor: var(--GreyColor); --SubNavigatorActiveTabFontColor: var(--BlueColor); --ModuleDescriptionFontSize: 1.5rem; }

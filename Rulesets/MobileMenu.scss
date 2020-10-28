@@ -21,7 +21,6 @@
 {
 	background: rgba(169, 169, 169, 0.8);
 	color: var(--BlackColor);
-	text-shadow: var(--TextShadow);
 
 	dd, dt, dl, p
 	{
@@ -37,5 +36,10 @@
 	#GamesListModule record itemcount
 	{
 		color: var(--GreenColor);
+	}
+
+	itemCount
+	{
+		text-shadow: var(--TextShadow);
 	}
 }
